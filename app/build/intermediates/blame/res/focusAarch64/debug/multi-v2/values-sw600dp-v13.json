@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Leonard\\Documents\\HvA Documenten\\2019-2020\\Automated Software Validation\\Firefox Focus for Android\\focus-android\\app\\build\\intermediates\\incremental\\mergeFocusAarch64DebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Leonard\\.gradle\\caches\\transforms-2\\files-2.1\\8d3aa07baad2ba1a48e31d15390b1510\\material-1.0.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,553,617,680",
+                        "endLines": "2,3,4,5,6,7,9,10,11,15",
+                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
+                        "endOffsets": "110,180,251,323,381,439,548,612,675,847"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14,15,16,17,19,24,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "695,755,825,896,968,1026,1084,1193,1568,1631",
+                        "endLines": "11,12,13,14,15,16,18,19,24,28",
+                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
+                        "endOffsets": "750,820,891,963,1021,1079,1188,1252,1626,1798"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Leonard\\.gradle\\caches\\transforms-2\\files-2.1\\695c9eef9897cac380861cc55973fcca\\appcompat-1.0.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "139,208,277,347,421,497,556,627",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "203,272,342,416,492,551,622,690"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Leonard\\Documents\\HvA Documenten\\2019-2020\\Automated Software Validation\\Firefox Focus for Android\\focus-android\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "from": {
+                        "startLines": "5,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "272,332",
+                        "endColumns": "56,60",
+                        "endOffsets": "324,388"
+                    },
+                    "to": {
+                        "startLines": "20,21",
+                        "startColumns": "4,4",
+                        "startOffsets": "1257,1314",
+                        "endColumns": "56,60",
+                        "endOffsets": "1309,1370"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Leonard\\Documents\\HvA Documenten\\2019-2020\\Automated Software Validation\\Firefox Focus for Android\\focus-android\\app\\src\\main\\res\\values-sw600dp\\configuration.xml",
+                    "from": {
+                        "startLines": "5,7,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "319,456,359",
+                        "endColumns": "38,100,95",
+                        "endOffsets": "353,552,450"
+                    },
+                    "to": {
+                        "startLines": "2,22,23",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "100,1375,1474",
+                        "endColumns": "38,98,93",
+                        "endOffsets": "134,1469,1563"
+                    }
+                }
+            ]
+        }
+    ]
+}
