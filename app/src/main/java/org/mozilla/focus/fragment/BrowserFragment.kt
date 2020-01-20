@@ -261,9 +261,9 @@ class BrowserFragment : WebFragment(), LifecycleObserver, View.OnClickListener,
 
         findInPageQuery!!.addTextChangedListener(
             object : TextWatcher {
-                override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+                override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {/*has no function at the moment*/}
 
-                override fun afterTextChanged(s: Editable) {}
+                override fun afterTextChanged(s: Editable) {/*has no function at the moment*/}
 
                 override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {
                     if (!TextUtils.isEmpty(s)) {
@@ -483,25 +483,25 @@ class BrowserFragment : WebFragment(), LifecycleObserver, View.OnClickListener,
     @Suppress("ComplexMethod")
     override fun createCallback(): IWebView.Callback {
         return SessionCallbackProxy(session, object : IWebView.Callback {
-            override fun onPageStarted(url: String) {}
+            override fun onPageStarted(url: String) {/*has no function at the moment*/}
 
-            override fun onPageFinished(isSecure: Boolean) {}
+            override fun onPageFinished(isSecure: Boolean) {/*has no function at the moment*/}
 
-            override fun onSecurityChanged(isSecure: Boolean, host: String, organization: String) {}
+            override fun onSecurityChanged(isSecure: Boolean, host: String, organization: String) {/*has no function at the moment*/}
 
-            override fun onURLChanged(url: String) {}
+            override fun onURLChanged(url: String) {/*has no function at the moment*/}
 
-            override fun onTitleChanged(title: String) {}
+            override fun onTitleChanged(title: String) {/*has no function at the moment*/}
 
-            override fun onRequest(isTriggeredByUserGesture: Boolean) {}
+            override fun onRequest(isTriggeredByUserGesture: Boolean) {/*has no function at the moment*/}
 
-            override fun onProgress(progress: Int) {}
+            override fun onProgress(progress: Int) {/*has no function at the moment*/}
 
-            override fun countBlockedTracker() {}
+            override fun countBlockedTracker() {/*has no function at the moment*/}
 
-            override fun resetBlockedTrackers() {}
+            override fun resetBlockedTrackers() {/*has no function at the moment*/}
 
-            override fun onBlockingStateChanged(isBlockingEnabled: Boolean) {}
+            override fun onBlockingStateChanged(isBlockingEnabled: Boolean) {/*has no function at the moment*/}
 
             override fun onHttpAuthRequest(callback: IWebView.HttpAuthCallback, host: String, realm: String) {
                 val builder = HttpAuthenticationDialogBuilder.Builder(activity, host, realm)
@@ -513,7 +513,7 @@ class BrowserFragment : WebFragment(), LifecycleObserver, View.OnClickListener,
                 builder.show()
             }
 
-            override fun onRequestDesktopStateChanged(shouldRequestDesktop: Boolean) {}
+            override fun onRequestDesktopStateChanged(shouldRequestDesktop: Boolean) {/*has no function at the moment*/}
 
             override fun onLongPress(hitTarget: IWebView.HitTarget) {
                 WebContextMenu.show(requireActivity(), this, hitTarget, session)
