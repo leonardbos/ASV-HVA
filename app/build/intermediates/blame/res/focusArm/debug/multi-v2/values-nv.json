@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Leonard\\Documents\\HvA Documenten\\2019-2020\\Automated Software Validation\\Firefox Focus for Android\\focus-android\\app\\build\\intermediates\\incremental\\mergeFocusArmDebugResources\\merged.dir\\values-nv\\values-nv.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Leonard\\Documents\\HvA Documenten\\2019-2020\\Automated Software Validation\\Firefox Focus for Android\\focus-android\\app\\src\\main\\res\\values-nv\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,6,10,9,8,11,7,5,4",
+                        "startColumns": "2,2,2,2,2,2,2,2,2,2",
+                        "startOffsets": "55,108,304,654,539,459,780,407,240,153",
+                        "endColumns": "51,43,101,124,113,78,95,50,62,85",
+                        "endOffsets": "104,149,403,776,650,535,873,455,300,236"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,155,259,386,502,583,681,734,799",
+                        "endColumns": "53,45,103,126,115,80,97,52,64,87",
+                        "endOffsets": "104,150,254,381,497,578,676,729,794,882"
+                    }
+                }
+            ]
+        }
+    ]
+}

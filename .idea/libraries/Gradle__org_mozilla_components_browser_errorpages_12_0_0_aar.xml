@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.components:browser-errorpages:12.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fa50cfd6c8ef475aab79ffb9170fa93f/browser-errorpages-12.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fa50cfd6c8ef475aab79ffb9170fa93f/browser-errorpages-12.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.components/browser-errorpages/12.0.0/7f0d3064c05469f14c6bd81643319b7b86554d23/browser-errorpages-12.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

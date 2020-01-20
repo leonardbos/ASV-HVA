@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Leonard\\Documents\\HvA Documenten\\2019-2020\\Automated Software Validation\\Firefox Focus for Android\\focus-android\\app\\build\\intermediates\\incremental\\mergeFocusArmDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Leonard\\.gradle\\caches\\transforms-2\\files-2.1\\695c9eef9897cac380861cc55973fcca\\appcompat-1.0.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

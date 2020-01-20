@@ -1,0 +1,650 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 This Source Code Form is subject to the terms of the Mozilla Public
+4   - License, v. 2.0. If a copy of the MPL was not distributed with this
+5   - file, You can obtain one at http://mozilla.org/MPL/2.0/.
+6-->
+7<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+8    package="org.mozilla.focus.debug"
+9    android:versionCode="11"
+10    android:versionName="8.0.25" >
+11
+12    <uses-sdk
+13        android:minSdkVersion="21"
+14        android:targetSdkVersion="28" />
+15    <!-- Allows unlocking your device and activating its screen so UI tests can succeed -->
+16    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+16-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\debug\AndroidManifest.xml:8:5-74
+16-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\debug\AndroidManifest.xml:8:22-72
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\debug\AndroidManifest.xml:9:5-67
+17-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\debug\AndroidManifest.xml:9:22-65
+18
+19    <!-- Allows for storing and retrieving screenshots -->
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:10:5-81
+20-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:10:22-78
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\debug\AndroidManifest.xml:13:5-80
+21-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\debug\AndroidManifest.xml:13:22-77
+22
+23    <!-- Allows changing locales for FastLane screenshots -->
+24    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+24-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\debug\AndroidManifest.xml:16:5-17:47
+24-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\debug\AndroidManifest.xml:16:22-76
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:9:5-67
+25-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:9:22-64
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Used by sentry. -->
+26-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:11:5-79
+26-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:11:22-76
+27    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+27-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:12:5-88
+27-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:12:22-85
+28    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Needed to prompt the user to give permission to install a downloaded apk -->
+28-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:13:5-76
+28-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:13:22-74
+29    <uses-permission-sdk-23 android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+29-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:15:5-90
+29-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:15:29-87
+30
+31    <uses-feature
+31-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:17:5-89
+32        android:name="android.hardware.fingerprint"
+32-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:17:19-62
+33        android:required="false" />
+33-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:17:63-87
+34
+35    <uses-permission-sdk-23 android:name="android.permission.USE_FINGERPRINT" /> <!-- Permission needed to publish the app on Samsung AppStore -->
+35-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:18:5-80
+35-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:18:29-78
+36    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+36-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:21:5-116
+36-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:21:22-114
+37    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+37-->[com.android.installreferrer:installreferrer:1.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cf5f3b400f24139c33e0349b3af746cb\jetified-installreferrer-1.1\AndroidManifest.xml:5:5-110
+37-->[com.android.installreferrer:installreferrer:1.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cf5f3b400f24139c33e0349b3af746cb\jetified-installreferrer-1.1\AndroidManifest.xml:5:22-107
+38    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+39    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+39-->[org.mozilla.components:service-telemetry:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\be5e40aad225c0d56ba5aefa25304ec0\service-telemetry-12.0.0\AndroidManifest.xml:14:5-81
+39-->[org.mozilla.components:service-telemetry:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\be5e40aad225c0d56ba5aefa25304ec0\service-telemetry-12.0.0\AndroidManifest.xml:14:22-78
+40    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+40-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:14:5-80
+40-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:14:22-77
+41
+42    <uses-feature
+42-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:16:5-18:36
+43        android:name="android.hardware.location"
+43-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:17:9-49
+44        android:required="false" />
+44-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:18:9-33
+45    <uses-feature
+45-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:19:5-21:36
+46        android:name="android.hardware.location.gps"
+46-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:20:9-53
+47        android:required="false" />
+47-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:21:9-33
+48    <uses-feature
+48-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:22:5-24:36
+49        android:name="android.hardware.touchscreen"
+49-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:23:9-52
+50        android:required="false" />
+50-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:24:9-33
+51    <uses-feature
+51-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:25:5-27:36
+52        android:name="android.hardware.camera"
+52-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:26:9-47
+53        android:required="false" />
+53-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:27:9-33
+54    <uses-feature
+54-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:28:5-30:36
+55        android:name="android.hardware.camera.autofocus"
+55-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:29:9-57
+56        android:required="false" />
+56-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:30:9-33
+57    <uses-feature
+57-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:31:5-33:36
+58        android:name="android.hardware.audio.low_latency"
+58-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:32:9-58
+59        android:required="false" />
+59-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:33:9-33
+60    <uses-feature
+60-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:34:5-36:36
+61        android:name="android.hardware.microphone"
+61-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:35:9-51
+62        android:required="false" />
+62-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:36:9-33
+63    <uses-feature
+63-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:37:5-39:36
+64        android:name="android.hardware.camera.any"
+64-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:38:9-51
+65        android:required="false" /> <!-- GeckoView requires OpenGL ES 2.0 -->
+65-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:39:9-33
+66    <uses-feature
+66-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:42:5-44:35
+67        android:glEsVersion="0x00020000"
+67-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:43:9-41
+68        android:required="true" />
+68-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:44:9-32
+69
+70    <application
+70-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:23:5-145:19
+71        android:name="org.mozilla.focus.FocusApplication"
+71-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:29:9-41
+72        android:allowBackup="false"
+72-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:24:9-36
+73        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+73-->[androidx.core:core:1.1.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\08f8f154e0e233cde56595f48e4aa002\core-1.1.0\AndroidManifest.xml:24:18-86
+74        android:debuggable="true"
+75        android:icon="@mipmap/ic_launcher"
+75-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:25:9-43
+76        android:label="@string/app_name"
+76-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:26:9-41
+77        android:supportsRtl="true"
+77-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:27:9-35
+78        android:testOnly="true"
+79        android:theme="@style/AppTheme"
+79-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:28:9-40
+80        android:usesCleartextTraffic="true" >
+80-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:30:9-44
+81        <activity android:name="org.mozilla.focus.activity.IntentReceiverActivity" >
+81-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:32:9-62:20
+81-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:32:19-66
+82            <intent-filter>
+82-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:33:13-39:29
+83                <action android:name="android.intent.action.VIEW" />
+83-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:34:17-69
+83-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:34:25-66
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:35:17-76
+85-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:35:27-73
+86                <category android:name="android.intent.category.BROWSABLE" />
+86-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:36:17-78
+86-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:36:27-75
+87
+88                <data android:scheme="http" />
+88-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:37:17-47
+88-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:37:23-44
+89                <data android:scheme="https" />
+89-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:37:17-47
+89-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:37:23-44
+90            </intent-filter>
+91            <intent-filter>
+91-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:41:13-50:29
+92                <action android:name="android.intent.action.VIEW" />
+92-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:34:17-69
+92-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:34:25-66
+93
+94                <category android:name="android.intent.category.BROWSABLE" />
+94-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:36:17-78
+94-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:36:27-75
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:35:17-76
+95-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:35:27-73
+96
+97                <data android:scheme="http" />
+97-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:37:17-47
+97-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:37:23-44
+98                <data android:scheme="https" />
+98-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:37:17-47
+98-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:37:23-44
+99                <data android:mimeType="text/html" />
+99-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:37:17-47
+100                <data android:mimeType="text/plain" />
+100-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:37:17-47
+101                <data android:mimeType="application/xhtml+xml" />
+101-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:37:17-47
+102            </intent-filter>
+103            <intent-filter>
+103-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:52:13-56:29
+104                <action android:name="android.intent.action.SEND" />
+104-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:53:17-69
+104-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:53:25-66
+105
+106                <category android:name="android.intent.category.DEFAULT" />
+106-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:35:17-76
+106-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:35:27-73
+107
+108                <data android:mimeType="text/plain" />
+108-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:37:17-47
+109            </intent-filter>
+110            <intent-filter>
+110-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:58:13-61:29
+111                <action android:name="android.intent.action.ASSIST" />
+111-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:59:17-71
+111-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:59:25-68
+112
+113                <category android:name="android.intent.category.DEFAULT" />
+113-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:35:17-76
+113-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:35:27-73
+114            </intent-filter>
+115        </activity>
+116        <activity
+116-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:64:9-76:20
+117            android:name="org.mozilla.focus.activity.MainActivity"
+117-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:64:19-56
+118            android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenSize|locale|layoutDirection|smallestScreenSize|screenLayout"
+118-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:66:13-146
+119            android:label="@string/app_name"
+119-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:68:13-45
+120            android:launchMode="singleTop"
+120-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:65:13-43
+121            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
+121-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:67:13-73
+122            <intent-filter>
+122-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:69:13-73:29
+123                <action android:name="android.intent.action.MAIN" />
+123-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:70:17-69
+123-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:70:25-66
+124
+125                <category android:name="android.intent.category.LAUNCHER" />
+125-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:72:17-77
+125-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:72:27-74
+126            </intent-filter>
+127
+128            <meta-data
+128-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:75:13-97
+129                android:name="android.app.shortcuts"
+129-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:75:24-60
+130                android:resource="@xml/shortcuts" />
+130-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:75:61-94
+131        </activity>
+132        <activity
+132-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:78:9-85:48
+133            android:name="org.mozilla.focus.activity.CustomTabActivity"
+133-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:78:19-61
+134            android:autoRemoveFromRecents="false"
+134-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:84:13-50
+135            android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenSize|locale|layoutDirection|smallestScreenSize|screenLayout"
+135-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:79:13-146
+136            android:exported="false"
+136-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:81:13-37
+137            android:label="@string/app_name"
+137-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:85:13-45
+138            android:persistableMode="persistNever"
+138-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:83:13-51
+139            android:taskAffinity=""
+139-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:82:13-36
+140            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+140-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:80:13-73
+141        <activity
+141-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:87:9-88:47
+142            android:name="org.mozilla.focus.activity.InfoActivity"
+142-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:87:19-56
+143            android:theme="@style/InfoTheme" />
+143-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:88:13-45
+144        <activity
+144-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:90:9-98:20
+145            android:name="org.mozilla.focus.activity.TextActionActivity"
+145-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:90:19-62
+146            android:exported="true"
+146-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:92:13-36
+147            android:label="@string/text_selection_search_action" >
+147-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:91:13-65
+148            <intent-filter>
+148-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:93:13-97:29
+149                <action android:name="android.intent.action.PROCESS_TEXT" />
+149-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:94:17-77
+149-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:94:25-74
+150
+151                <category android:name="android.intent.category.DEFAULT" />
+151-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:35:17-76
+151-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:35:27-73
+152
+153                <data android:mimeType="text/plain" />
+153-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:37:17-47
+154            </intent-filter>
+155        </activity>
+156
+157        <!-- SettingsActivity title is set dynamically for multilocale support -->
+158        <activity
+158-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:101:9-105:54
+159            android:name="org.mozilla.focus.activity.SettingsActivity"
+159-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:101:19-60
+160            android:configChanges="locale"
+160-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:104:13-43
+161            android:parentActivityName="org.mozilla.focus.activity.MainActivity"
+161-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:102:13-64
+162            android:theme="@style/SettingsTheme"
+162-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:103:13-49
+163            android:windowSoftInputMode="adjustPan" />
+163-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:105:13-52
+164        <activity
+164-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:107:9-108:66
+165            android:name="org.mozilla.focus.activity.InstallFirefoxActivity"
+165-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:107:19-66
+166            android:theme="@style/Theme.AppCompat.NoActionBar" />
+166-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:108:13-63
+167        <activity
+167-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:110:9-111:64
+168            android:name="org.mozilla.focus.activity.EraseShortcutActivity"
+168-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:110:19-65
+169            android:theme="@android:style/Theme.Translucent" />
+169-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:111:13-61
+170        <activity
+170-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:113:9-114:64
+171            android:name="org.mozilla.focus.activity.EraseAndOpenShortcutActivity"
+171-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:113:19-72
+172            android:theme="@android:style/Theme.Translucent" />
+172-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:114:13-61
+173
+174        <provider
+175            android:name="androidx.core.content.FileProvider"
+176            android:authorities="org.mozilla.focus.debug.fileprovider"
+177            android:exported="false"
+178            android:grantUriPermissions="true" >
+179            <meta-data
+180                android:name="android.support.FILE_PROVIDER_PATHS"
+181                android:resource="@xml/provider_paths" />
+182        </provider>
+183
+184        <service
+184-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:126:9-133:19
+185            android:name="org.mozilla.focus.customtabs.CustomTabsService"
+185-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:127:13-57
+186            android:exported="true" >
+186-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:128:13-36
+187            <intent-filter>
+187-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:130:13-132:29
+188                <action android:name="android.support.customtabs.action.CustomTabsService" />
+188-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:131:17-94
+188-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:131:25-91
+189            </intent-filter>
+190        </service>
+191        <service
+191-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:135:9-136:40
+192            android:name="org.mozilla.focus.session.SessionNotificationService"
+192-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:135:18-68
+193            android:exported="false" />
+193-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:136:13-37
+194        <service
+194-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:138:9-141:72
+195            android:name="org.mozilla.focus.utils.ExperimentsSyncService"
+195-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:139:13-57
+196            android:exported="false"
+196-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:140:13-37
+197            android:permission="android.permission.BIND_JOB_SERVICE" />
+197-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:141:13-69
+198
+199        <meta-data
+199-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:143:9-144:43
+200            android:name="android.webkit.WebView.MetricsOptOut"
+200-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:143:20-71
+201            android:value="true" />
+201-->C:\Users\Leonard\Documents\HvA Documenten\2019-2020\Automated Software Validation\Firefox Focus for Android\focus-android\app\src\main\AndroidManifest.xml:144:20-40
+202
+203        <activity
+203-->[org.mozilla.components:lib-crash:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\1b10fa7b2900c671a6174af83cb57023\lib-crash-12.0.0\AndroidManifest.xml:19:9-24:64
+204            android:name="mozilla.components.lib.crash.prompt.CrashReporterActivity"
+204-->[org.mozilla.components:lib-crash:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\1b10fa7b2900c671a6174af83cb57023\lib-crash-12.0.0\AndroidManifest.xml:20:13-85
+205            android:excludeFromRecents="true"
+205-->[org.mozilla.components:lib-crash:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\1b10fa7b2900c671a6174af83cb57023\lib-crash-12.0.0\AndroidManifest.xml:21:13-46
+206            android:exported="false"
+206-->[org.mozilla.components:lib-crash:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\1b10fa7b2900c671a6174af83cb57023\lib-crash-12.0.0\AndroidManifest.xml:22:13-37
+207            android:process=":mozilla.components.lib.crash.CrashReporter"
+207-->[org.mozilla.components:lib-crash:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\1b10fa7b2900c671a6174af83cb57023\lib-crash-12.0.0\AndroidManifest.xml:23:13-74
+208            android:theme="@style/Theme.Mozac.CrashReporter" />
+208-->[org.mozilla.components:lib-crash:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\1b10fa7b2900c671a6174af83cb57023\lib-crash-12.0.0\AndroidManifest.xml:24:13-61
+209
+210        <service
+210-->[org.mozilla.components:lib-crash:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\1b10fa7b2900c671a6174af83cb57023\lib-crash-12.0.0\AndroidManifest.xml:26:9-29:76
+211            android:name="mozilla.components.lib.crash.handler.CrashHandlerService"
+211-->[org.mozilla.components:lib-crash:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\1b10fa7b2900c671a6174af83cb57023\lib-crash-12.0.0\AndroidManifest.xml:27:13-84
+212            android:exported="false"
+212-->[org.mozilla.components:lib-crash:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\1b10fa7b2900c671a6174af83cb57023\lib-crash-12.0.0\AndroidManifest.xml:28:13-37
+213            android:process=":mozilla.components.lib.crash.CrashHandler" />
+213-->[org.mozilla.components:lib-crash:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\1b10fa7b2900c671a6174af83cb57023\lib-crash-12.0.0\AndroidManifest.xml:29:13-73
+214        <service
+214-->[org.mozilla.components:lib-crash:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\1b10fa7b2900c671a6174af83cb57023\lib-crash-12.0.0\AndroidManifest.xml:30:9-32:40
+215            android:name="mozilla.components.lib.crash.service.SendCrashReportService"
+215-->[org.mozilla.components:lib-crash:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\1b10fa7b2900c671a6174af83cb57023\lib-crash-12.0.0\AndroidManifest.xml:31:13-87
+216            android:exported="false" /> <!-- TODO: This should only be added to the manifest if this scheduler is actually used. -->
+216-->[org.mozilla.components:lib-crash:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\1b10fa7b2900c671a6174af83cb57023\lib-crash-12.0.0\AndroidManifest.xml:32:13-37
+217        <service
+217-->[org.mozilla.components:service-telemetry:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\be5e40aad225c0d56ba5aefa25304ec0\service-telemetry-12.0.0\AndroidManifest.xml:19:9-21:72
+218            android:name="org.mozilla.telemetry.schedule.jobscheduler.TelemetryJobService"
+218-->[org.mozilla.components:service-telemetry:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\be5e40aad225c0d56ba5aefa25304ec0\service-telemetry-12.0.0\AndroidManifest.xml:20:13-91
+219            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- New child services must also be added to the Fennec AndroidManifest.xml.in -->
+219-->[org.mozilla.components:service-telemetry:12.0.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\be5e40aad225c0d56ba5aefa25304ec0\service-telemetry-12.0.0\AndroidManifest.xml:21:13-69
+220        <service
+220-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:49:9-55:19
+221            android:name="org.mozilla.gecko.media.MediaManager"
+221-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:50:13-64
+222            android:enabled="true"
+222-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:51:13-35
+223            android:exported="false"
+223-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:52:13-37
+224            android:isolatedProcess="false"
+224-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:53:13-44
+225            android:process=":media" >
+225-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:54:13-37
+226        </service>
+227        <service
+227-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:56:9-62:19
+228            android:name="org.mozilla.gecko.process.GeckoServiceChildProcess$gmplugin"
+228-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:57:13-87
+229            android:enabled="true"
+229-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:58:13-35
+230            android:exported="false"
+230-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:59:13-37
+231            android:isolatedProcess="false"
+231-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:60:13-44
+232            android:process=":gmplugin" >
+232-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:61:13-40
+233        </service>
+234        <service
+234-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:63:9-69:19
+235            android:name="org.mozilla.gecko.process.GeckoServiceChildProcess$tab"
+235-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:64:13-82
+236            android:enabled="true"
+236-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:65:13-35
+237            android:exported="false"
+237-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:66:13-37
+238            android:isolatedProcess="false"
+238-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:67:13-44
+239            android:process=":tab" >
+239-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:68:13-35
+240        </service>
+241        <service
+241-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:70:9-76:19
+242            android:name="org.mozilla.gecko.process.GeckoServiceChildProcess$socket"
+242-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:71:13-85
+243            android:enabled="true"
+243-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:72:13-35
+244            android:exported="false"
+244-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:73:13-37
+245            android:isolatedProcess="false"
+245-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:74:13-44
+246            android:process=":socket" >
+246-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:75:13-38
+247        </service>
+248        <service
+248-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:77:9-82:19
+249            android:name="org.mozilla.gecko.gfx.SurfaceAllocatorService"
+249-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:78:13-73
+250            android:enabled="true"
+250-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:79:13-35
+251            android:exported="false"
+251-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:80:13-37
+252            android:isolatedProcess="false" >
+252-->[org.mozilla.geckoview:geckoview:71.0.20200108003105] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\cbcee8a26311d404bfaadee16a3953f1\jetified-geckoview-71.0.20200108003105\AndroidManifest.xml:81:13-44
+253        </service>
+254
+255        <provider
+255-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:28:9-34:35
+256            android:name="androidx.work.impl.WorkManagerInitializer"
+256-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:29:13-69
+257            android:authorities="org.mozilla.focus.debug.workmanager-init"
+257-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:30:13-68
+258            android:directBootAware="false"
+258-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:31:13-44
+259            android:exported="false"
+259-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:32:13-37
+260            android:multiprocess="true" />
+260-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:33:13-40
+261
+262        <service
+262-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:36:9-41:35
+263            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+263-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:37:13-88
+264            android:directBootAware="false"
+264-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:38:13-44
+265            android:enabled="@bool/enable_system_alarm_service_default"
+265-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:39:13-72
+266            android:exported="false" />
+266-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:40:13-37
+267        <service
+267-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:42:9-48:35
+268            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+268-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:43:13-84
+269            android:directBootAware="false"
+269-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:44:13-44
+270            android:enabled="@bool/enable_system_job_service_default"
+270-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:45:13-70
+271            android:exported="true"
+271-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:46:13-36
+272            android:permission="android.permission.BIND_JOB_SERVICE" />
+272-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:47:13-69
+273
+274        <receiver
+274-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:50:9-55:35
+275            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+275-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:51:13-88
+276            android:directBootAware="false"
+276-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:52:13-44
+277            android:enabled="true"
+277-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:53:13-35
+278            android:exported="false" />
+278-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:54:13-37
+279        <receiver
+279-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:56:9-66:20
+280            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+280-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:57:13-106
+281            android:directBootAware="false"
+281-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:58:13-44
+282            android:enabled="false"
+282-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:59:13-36
+283            android:exported="false" >
+283-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:60:13-37
+284            <intent-filter>
+284-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:62:13-65:29
+285                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+285-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:63:17-87
+285-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:63:25-84
+286                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+286-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:64:17-90
+286-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:64:25-87
+287            </intent-filter>
+288        </receiver>
+289        <receiver
+289-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:67:9-77:20
+290            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+290-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:68:13-104
+291            android:directBootAware="false"
+291-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:69:13-44
+292            android:enabled="false"
+292-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:70:13-36
+293            android:exported="false" >
+293-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:71:13-37
+294            <intent-filter>
+294-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:73:13-76:29
+295                <action android:name="android.intent.action.BATTERY_OKAY" />
+295-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:74:17-77
+295-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:74:25-74
+296                <action android:name="android.intent.action.BATTERY_LOW" />
+296-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:75:17-76
+296-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:75:25-73
+297            </intent-filter>
+298        </receiver>
+299        <receiver
+299-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:78:9-88:20
+300            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+300-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:79:13-104
+301            android:directBootAware="false"
+301-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:80:13-44
+302            android:enabled="false"
+302-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:81:13-36
+303            android:exported="false" >
+303-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:82:13-37
+304            <intent-filter>
+304-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:84:13-87:29
+305                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+305-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:85:17-83
+305-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:85:25-80
+306                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+306-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:86:17-82
+306-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:86:25-79
+307            </intent-filter>
+308        </receiver>
+309        <receiver
+309-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:89:9-98:20
+310            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+310-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:90:13-103
+311            android:directBootAware="false"
+311-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:91:13-44
+312            android:enabled="false"
+312-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:92:13-36
+313            android:exported="false" >
+313-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:93:13-37
+314            <intent-filter>
+314-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:95:13-97:29
+315                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+315-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:96:17-79
+315-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:96:25-76
+316            </intent-filter>
+317        </receiver>
+318        <receiver
+318-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:99:9-110:20
+319            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+319-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:100:13-88
+320            android:directBootAware="false"
+320-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:101:13-44
+321            android:enabled="false"
+321-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:102:13-36
+322            android:exported="false" >
+322-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:103:13-37
+323            <intent-filter>
+323-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:105:13-109:29
+324                <action android:name="android.intent.action.BOOT_COMPLETED" />
+324-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:106:17-79
+324-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:106:25-76
+325                <action android:name="android.intent.action.TIME_SET" />
+325-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:107:17-73
+325-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:107:25-70
+326                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+326-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:108:17-81
+326-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:108:25-78
+327            </intent-filter>
+328        </receiver>
+329        <receiver
+329-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:111:9-120:20
+330            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+330-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:112:13-99
+331            android:directBootAware="false"
+331-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:113:13-44
+332            android:enabled="@bool/enable_system_alarm_service_default"
+332-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:114:13-72
+333            android:exported="false" >
+333-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:115:13-37
+334            <intent-filter>
+334-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:117:13-119:29
+335                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+335-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:118:17-98
+335-->[androidx.work:work-runtime:2.0.1] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\29b8ccf58bdc447970adb62a9b59e14b\work-runtime-2.0.1\AndroidManifest.xml:118:25-95
+336            </intent-filter>
+337        </receiver>
+338
+339        <provider
+339-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\4d6c6d300112d1bfcfbc63c68ff8a977\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+340            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+340-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\4d6c6d300112d1bfcfbc63c68ff8a977\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+341            android:authorities="org.mozilla.focus.debug.lifecycle-process"
+341-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\4d6c6d300112d1bfcfbc63c68ff8a977\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+342            android:exported="false"
+342-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\4d6c6d300112d1bfcfbc63c68ff8a977\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+343            android:multiprocess="true" />
+343-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Leonard\.gradle\caches\transforms-2\files-2.1\4d6c6d300112d1bfcfbc63c68ff8a977\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+344    </application>
+345
+346</manifest>

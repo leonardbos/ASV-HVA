@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.components:support-base:12.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3c8f083e6e9696d55b98e71f86f400d9/support-base-12.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3c8f083e6e9696d55b98e71f86f400d9/support-base-12.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.components/support-base/12.0.0/d7b5ef0093ca81c1ef508035af5e755a0e670be4/support-base-12.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

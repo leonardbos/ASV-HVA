@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s te da el control.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"&#218;salo como navegador privado:\n  "<ul>"\n    "<li>Busca y navega en la propia aplicaci&#243;n</li>"\n    "<li>Bloquea a los rastreadores (o cambia los ajustes para permitirlos)</li>"\n    "<li>Limpia para borrar cookies y los historiales de b&#250;squeda y navegaci&#243;n</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">Mozilla es la autora de %1$s. Nuestra misi&#243;n es promover un Internet saludable y abierto.<br/>\n<a href="%2$s">Descubre m&#225;s</a></p>]]></string>
+    <string name="accessibility_announcement_loading">Cargando</string>
+    <string name="accessibility_announcement_loading_finished">Página cargada</string>
+    <string name="accessibility_dismiss_find_in_page">Cerrar la búsqueda</string>
+    <string name="accessibility_find_in_page_result">%1$d de %2$d</string>
+    <string name="accessibility_next_result">Próximo resultado</string>
+    <string name="accessibility_previous_result">Resultado anterior</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_ok">Aceptar</string>
+    <string name="action_option_add_search_engine">Añadir motor de búsqueda</string>
+    <string name="action_save">Guardar</string>
+    <string name="add_custom_autocomplete_label">Añadir el enlace para completar automáticamente</string>
+    <string name="biometric_auth_description">Toca el sensor de huellas digitales para continuar.</string>
+    <string name="biometric_auth_image_description">Icono de huella digital</string>
+    <string name="biometric_auth_moved_too_quickly">El dedo se movió demasiado rápido. Vuelve a intentarlo.</string>
+    <string name="biometric_auth_new_session">Nueva sesión</string>
+    <string name="biometric_auth_not_recognized_error">Huella digital no reconocida. Vuelve a intentarlo.</string>
+    <string name="biometric_auth_title">Desbloquear %1$s</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Ir a la página anterior</string>
+    <string name="content_description_blocking_switch">Bloquear rastreadores</string>
+    <string name="content_description_clear_input">Limpiar registro</string>
+    <string name="content_description_customtab_exit">Volver a la aplicación anterior</string>
+    <string name="content_description_dismiss_input">Ignorar</string>
+    <string name="content_description_erase">Eliminar historial de navegación</string>
+    <string name="content_description_forward">Ir hacia delante</string>
+    <string name="content_description_lock">Conexión segura</string>
+    <string name="content_description_menu">Más opciones</string>
+    <string name="content_description_reload">Recargar página</string>
+    <string name="content_description_stop">Parar la carga de esta página</string>
+    <string name="content_description_tab_counter">Pestañas abiertas: %1$s</string>
+    <string name="content_description_trackers_blocked">Número de rastreadores bloqueados</string>
+    <string name="contextmenu_image_copy">Copiar dirección de la imagen</string>
+    <string name="contextmenu_image_save">Guardar imagen</string>
+    <string name="contextmenu_image_share">Compartir imagen</string>
+    <string name="contextmenu_image_warning"><![CDATA["Las imágenes guardadas y compartidas "<b xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">no se borrar&#225;n</b>" cuando elimines el historial de %1$s."]]></string>
+    <string name="contextmenu_link_copy">Copiar dirección del enlace</string>
+    <string name="contextmenu_link_share">Compartir enlace</string>
+    <string name="contextmenu_open_in_app">Abrir con la aplicación</string>
+    <string name="contextmenu_open_in_new_tab">Abrir enlace en una pestaña nueva</string>
+    <string name="crash_report_send_crash_label">Enviar informe de fallo a Mozilla</string>
+    <string name="custom_autocomplete_quick_add">Agregar URL personalizada</string>
+    <string name="custom_tab_copy_url_action">Se copió la URL</string>
+    <string name="dialog_addtohomescreen_action_add">Añadir</string>
+    <string name="dialog_addtohomescreen_action_cancel">Cancelar</string>
+    <string name="dialog_addtohomescreen_tracking_protection">El acceso directo se abrirá con la protección contra el rastreo desactivada</string>
+    <string name="dismiss_no_suggestions_prompt_button">Ignorar</string>
+    <string name="download_dialog_action_cancel">Cancelar</string>
+    <string name="download_dialog_action_download">Descargar</string>
+    <string name="download_dialog_title">Descargar archivo</string>
+    <string name="download_dialog_warning"><![CDATA["Los archivos descargados "<b xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">no ser&#225;n eliminados</b>" cuando borres el historial de %1$s."]]></string>
+    <string name="download_firefox">Descargar Firefox</string>
+    <string name="download_snackbar_finished">%1$s completado</string>
+    <string name="download_snackbar_open">Abrir</string>
+    <string name="enable_search_suggestion_subtitle">Para obtener sugerencias de búsqueda, %1$s necesita enviar lo que escribes en la barra de direcciones al motor de búsqueda que has elegido. %2$s.</string>
+    <string name="enable_search_suggestion_subtitle_learnmore">Saber más</string>
+    <string name="enable_search_suggestion_title">¿Te gustaría activar las sugerencias de búsqueda?</string>
+    <string name="enable_search_suggestions_no">No</string>
+    <string name="enable_search_suggestions_yes">Si</string>
+    <string name="error_connectionfailure_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n        "<li>Puede que el sitio est&#233; ocupado o no est&#233; disponible temporalmente. Vuelve a intentarlo en unos minutos.</li>"\n        "<li>Si no puedes cargar ninguna p&#225;gina, comprueba la conexi&#243;n de datos o Wi-Fi de tu dispositivo.</li>"\n      "</ul>]]></string>
+    <string name="error_connectionfailure_title">No se puede conectar</string>
+    <string name="error_generic_message">Por alguna razón, no podemos cargar esta página.</string>
+    <string name="error_generic_title">Ups</string>
+    <string name="error_hostLookup_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n        "<li>"Comprueba que la direcci&#243;n no tiene ning&#250;n error como\n          "<strong>ww</strong>".example.com en vez de\n          "<strong>www</strong>.example.com</li>"\n        "<li>Si no puedes cargar ninguna p&#225;gina, comprueba la conexi&#243;n de datos o Wi-Fi de tu dispositivo.</li>"\n      "</ul>]]></string>
+    <string name="error_hostLookup_title">Servidor no encontrado</string>
+    <string name="error_malformedURI_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n  "<li>"Las direcciones web se suelen escribir as&#237;: "<strong>http://www.example.com/</strong></li>"\n  "<li>Aseg&#250;rate de usar las barras oblicuas (<strong>/</strong>).</li>\n</ul>]]></string>
+    <string name="error_malformedURI_title">La dirección no es válida</string>
+    <string name="error_redirectLoop_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n  "<li>A veces, el problema se produce por desactivar o no aceptar el uso de cookies.</li>\n</ul>]]></string>
+    <string name="error_redirectLoop_title">La página no se está redireccionando adecuadamente</string>
+    <string name="error_sslhandshake_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n  "<li>Puede que haya un problema con la configuraci&#243;n del servidor o puede\nque alguien est&#233; intentando suplantar al servidor.</li>"\n  "<li>Si ya te hab&#237;as conectado antes a este servidor sin problemas, puede que el error\nsea temporal y puedes intentarlo m&#225;s tarde.</li>\n</ul>]]></string>
+    <string name="error_sslhandshake_title">Fallo en la conexión segura</string>
+    <string name="error_timeout_title">La conexión ha caducado</string>
+    <string name="error_unsupportedprotocol_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n  "<li>Puede que necesites instalar otro software para abrir esta direcci&#243;n.</li>\n</ul>]]></string>
+    <string name="error_unsupportedprotocol_title">No se entiende la dirección</string>
+    <string name="errorpage_refresh">Vuelve a intentarlo</string>
+    <string name="errorpage_title">Problema al cargar la página</string>
+    <string name="external_app_prompt">Puedes salir de %1$s para abrir este enlace en %2$s.</string>
+    <string name="external_app_prompt_no_app">Ninguna de las aplicaciones de tu dispositivo puede abrir este enlace. Puedes salir de %1$s para buscar en %2$s una aplicación compatible.</string>
+    <string name="external_app_prompt_no_app_title">Busca una aplicación que pueda abrir este enlace</string>
+    <string name="external_app_prompt_title">Abrir enlace con otra aplicación</string>
+    <string name="external_multiple_apps_matched_exit">¿Salir de la navegación privada?</string>
+    <string name="fatal_crash_report_close_button_label">Cerrar</string>
+    <string name="fatal_crash_report_description">Como navegador privado, nunca guardamos y no podemos restaurar tu última sesión de navegación.</string>
+    <string name="fatal_crash_report_restart_firefox_label">Reiniciar %1$s</string>
+    <string name="fatal_crash_report_title">Lo sentimos. %1$s ha tenido un problema y ha fallado.</string>
+    <string name="feedback_erase">Se ha eliminado tu historial de búsqueda.</string>
+    <string name="feedback_erase_custom_tab">Se ha borrado el historial de navegación de la pestaña.</string>
+    <string name="find_in_page">Buscar en la página</string>
+    <string name="find_in_page_input">Buscar en la página</string>
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <string name="firstrun_close_button">¡Entendido!</string>
+    <string name="firstrun_defaultbrowser_text2">Lleva la navegación privada al siguiente nivel. Bloquea anuncios y otros contenidos que puedan rastrearte a través de los sitios y ralentizar la carga de las páginas.</string>
+    <string name="firstrun_defaultbrowser_title">Potencia tu privacidad</string>
+    <string name="firstrun_next_button">Siguiente</string>
+    <string name="firstrun_privacy_text">Establece %1$s como navegador predeterminado y experimenta los beneficios de la navegación privada al abrir páginas web desde otras aplicaciones.</string>
+    <string name="firstrun_privacy_title">Haz de la privacidad un hábito</string>
+    <string name="firstrun_search_text">¿Buscas algo diferente? Elige otro motor de búsqueda predeterminado en Ajustes.</string>
+    <string name="firstrun_search_title">Tu búsqueda, a tu manera</string>
+    <string name="firstrun_shortcut_text">Vuelve a visitar tus sitios favoritos en %1$s de forma instantánea. En el menú %1$s, selecciona \"Agregar a la pantalla de inicio\".</string>
+    <string name="firstrun_shortcut_title">Añade accesos directos a tu pantalla de inicio</string>
+    <string name="firstrun_skip_button">Saltar</string>
+    <string name="gv_prompt_clear">Limpiar</string>
+    <string name="gv_prompt_password_hint">Contraseña</string>
+    <string name="gv_prompt_username_hint">Nombre de usuario</string>
+    <string name="http_auth_dialog_password">Contraseña</string>
+    <string name="http_auth_dialog_title">Se necesita autenticación</string>
+    <string name="http_auth_dialog_username">Nombre de usuario</string>
+    <string name="indicator_content_description_menu">Botón de más opciones</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_add_to_home_screen">Añadir a pantalla de inicio</string>
+    <string name="menu_content_blocking">Bloqueo de contenido</string>
+    <string name="menu_content_blocking_subtitle">Desactivar para arreglar algunos sitios</string>
+    <string name="menu_custom_tab_branding">Impulsado por %1$s</string>
+    <string name="menu_help">Ayuda</string>
+    <string name="menu_open_with_a_browser2">Abrir en…</string>
+    <string name="menu_open_with_default_browser2">Abrir en %1$s</string>
+    <string name="menu_report_site_issue">Informar de fallo en el sitio</string>
+    <string name="menu_rights">Tus derechos</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="menu_share">Compartir…</string>
+    <string name="menu_trackers_blocked_subtitle">Desactivar esta opción puede solucionar algunos problemas del sitio</string>
+    <string name="menu_trackers_blocked_title">Rastreadores bloqueados</string>
+    <string name="menu_whats_new">Novedades</string>
+    <string name="mozac_browser_errorpages_connection_failure_message"><![CDATA[
+	<ul>
+		<li>El sitio podría no estar disponible temporalmente o estar demasiado ocupado. Vuelve a intentarlo en unos minutos.</li>
+		<li>Si no puedes cargar ninguna página, revisa la conexión wifi o de datos del dispositivo móvil.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_connection_failure_title">No se puede conectar</string>
+    <string name="mozac_browser_errorpages_content_crashed_message"><![CDATA[
+	<p>La página que estás intentando ver no puede mostrarse porque se detectó un error en la transmisión de los datos.</p>
+	<ul>
+		<li>Ponte en contacto con los propietarios del sitio web para informarles de este problema.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_content_crashed_title">Contenido bloqueado</string>
+    <string name="mozac_browser_errorpages_corrupted_content_message"><![CDATA[
+	<p>La página que estás intentando ver no puede mostrarse porque se detectó un error en la transmisión de los datos.</p>
+	<ul>
+		<li>Ponte en contacto con los propietarios del sitio web para informarles de este problema.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_corrupted_content_title">Error de contenido dañado</string>
+    <string name="mozac_browser_errorpages_file_access_denied_message"><![CDATA[
+	<ul>
+		<li>Puede haberse eliminado o movido, o sus permisos de archivo pueden estar impidiendo el acceso.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_file_access_denied_title">El acceso al archivo ha sido denegado</string>
+    <string name="mozac_browser_errorpages_file_not_found_message"><![CDATA[
+	<ul>
+		<li>¿Es posible que el elemento se haya renombrado, eliminado o cambiado de ruta?</li>
+		<li>¿Hay algún error de ortografía, de uso de mayúsculas o de cualquier otro tipo en la dirección?</li>
+		<li>¿Tienes privilegios de acceso suficientes para el elemento solicitado?</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_file_not_found_title">Archivo no encontrado</string>
+    <string name="mozac_browser_errorpages_generic_message"><![CDATA[
+      <p>Actualmente no hay información adicional disponible para este problema o error.</p>
+    ]]></string>
+    <string name="mozac_browser_errorpages_generic_title">No se puede completar la petición</string>
+    <string name="mozac_browser_errorpages_invalid_content_encoding_message"><![CDATA[
+	<p>La página que estás intentando ver no puede mostrarse porque usa una forma no válida o no admitida de compresión.</p>
+	<ul>
+		<li>Ponte en contacto con los propietarios del sitio web para informarles de este problema.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_invalid_content_encoding_title">Error de codificación de contenido</string>
+    <string name="mozac_browser_errorpages_malformed_uri_message"><![CDATA[
+	<p>La dirección proporcionada no está en un formato reconocido. Comprueba si hay errores en la barra de direcciones y vuelve a intentarlo.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_malformed_uri_message_alternative"><![CDATA[
+	<ul>
+		<li>Las direcciones web suelen escribirse así: <strong>http://www.ejemplo.com/</strong></li> 
+		<li>Asegúrate de estar usando barras inclinadas hacia adelante (p. ej., <strong>/</strong>).</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_malformed_uri_title">La dirección no es válida</string>
+    <string name="mozac_browser_errorpages_malformed_uri_title_alternative">La dirección no es válida</string>
+    <string name="mozac_browser_errorpages_net_interrupt_message"><![CDATA[
+	<p>El navegador se conectó con éxito, pero se interrumpió la conexión mientras se transfería la información. Vuelve a intentarlo.</p>
+	<ul>
+		<li>El sitio podría no estar disponible temporalmente o estar demasiado ocupado. Vuelve a intentarlo en unos minutos.</li>
+		<li>Si no puedes cargar ninguna página, revisa la conexión wifi o de datos de tu dispositivo móvil.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_net_interrupt_title">La conexión ha sido interrumpida</string>
+    <string name="mozac_browser_errorpages_net_reset_message"><![CDATA[
+	<p>El enlace con la red se interrumpió mientras se negociaba una conexión. Vuelve a intentarlo.</p>
+	<ul>
+		<li>El sitio podría no estar disponible temporalmente o estar demasiado ocupado. Vuelve a intentarlo en unos minutos.</li>
+		<li>Si no puedes cargar ninguna página, revisa la conexión wifi o de datos del dispositivo móvil.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_net_reset_title">La conexión ha sido reiniciada</string>
+    <string name="mozac_browser_errorpages_net_timeout_message"><![CDATA[
+	<p>El sitio solicitado no respondió a una petición de conexión y el navegador ha dejado de esperar una respuesta.</p>
+	<ul>
+		<li>¿Podría estar experimentando el servidor una alta demanda o un corte temporal? Vuelve a intentarlo más tarde.</li>
+		<li>¿No puedes navegar por otros sitios? Comprueba la conexión de red del equipo.</li>
+		<li>¿Tu red o equipo está protegido por un firewall o un proxy? Una configuración incorrecta puede interferir con la navegación web.</li>
+		<li>¿Todavía tienes problemas? Consulta con el administrador de red o proveedor de Internet para obtener asistencia técnica.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_net_timeout_title">La conexión ha caducado</string>
+    <string name="mozac_browser_errorpages_offline_message"><![CDATA[
+	<p>El navegador está operando en modo sin conexión y no puede conectarse con el elemento solicitado.</p>
+	<ul>
+		<li>¿Está conectado el equipo a una red activa?</li>
+		<li>Pulsa "Volver a intentarlo" para pasar al modo con conexión y recargar la página.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_offline_title">Modo sin conexión</string>
+    <string name="mozac_browser_errorpages_page_go_back">Volver atrás</string>
+    <string name="mozac_browser_errorpages_page_refresh">Volver a intentarlo</string>
+    <string name="mozac_browser_errorpages_page_title">Problema al cargar la página</string>
+    <string name="mozac_browser_errorpages_port_blocked_message"><![CDATA[
+	<p>La dirección solicitada especificaba un puerto (p. ej., <q>mozilla.org:80</q> para el puerto 80 de mozilla.org) que suele usarse para propósitos <em>distintos</em> a navegar por Internet. El navegador ha cancelado la solicitud para tu protección y seguridad.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_port_blocked_title">Puerto restringido por razones de seguridad</string>
+    <string name="mozac_browser_errorpages_proxy_connection_refused_message"><![CDATA[
+	<p>El navegador está configurado para usar un servidor proxy, pero el proxy rechazó la conexión.</p>
+	<ul>
+		<li>¿Es correcta la configuración de proxy del navegador? Comprueba la configuración y vuelve a intentarlo.</li>
+		<li>¿Permite el servicio proxy conexiones desde esta red?</li>
+		<li>¿Todavía tienes problemas? Consulta con el administrador de red o proveedor de Internet para obtener asistencia técnica.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_proxy_connection_refused_title">El servidor proxy rechazó la conexión</string>
+    <string name="mozac_browser_errorpages_redirect_loop_message"><![CDATA[
+	<p>El navegador se ha detenido intentando recuperar el elemento solicitado. El sitio está redirigiendo la solicitud de una forma que nunca se va a completar.</p>
+	<ul>
+		<li>¿Tienes desactivadas o bloqueadas las cookies que necesita este sitio?</li>
+		<li>Si aceptar las cookies del sitio no resuelve el problema, es probable que sea un problema de configuración del servidor y no del equipo.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_redirect_loop_title">La página no está redirigiendo adecuadamente</string>
+    <string name="mozac_browser_errorpages_safe_browsing_malware_uri_message"><![CDATA[
+	<p>El sitio en %1$s se ha identificado como un sitio atacante y se ha bloqueado, siguiendo tus preferencias de seguridad.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_safe_browsing_malware_uri_title">Problema de sitio de malware</string>
+    <string name="mozac_browser_errorpages_safe_browsing_unwanted_uri_message"><![CDATA[
+	<p>El sitio en %1$s se ha identificado como un sitio que ofrece software no deseado y se ha bloqueado, siguiendo tus preferencias de seguridad.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_safe_browsing_unwanted_uri_title">Problema de sitio no deseado</string>
+    <string name="mozac_browser_errorpages_safe_harmful_uri_message"><![CDATA[
+	<p>El sitio en %1$s se ha identificado como un sitio potencialmente dañino y se ha bloqueado, siguiendo tus preferencias de seguridad.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_safe_harmful_uri_title">Problema de sitio dañino</string>
+    <string name="mozac_browser_errorpages_safe_phishing_uri_message"><![CDATA[
+	<p>La página web en %1$s se ha identificado como un sitio engañoso y se ha bloqueado, siguiendo tus preferencias de seguridad.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_safe_phishing_uri_title">Problema de sitio engañoso</string>
+    <string name="mozac_browser_errorpages_security_bad_cert_message"><![CDATA[
+      <ul>
+        <li>Esto podría deberse a un problema con la configuración del servidor, o podría ser alguien intentando hacerse pasar por el servidor.</li>
+        <li>Si ya te habías conectado antes a este servidor, el error podría ser temporal, y podrás volver a intentarlo más tarde.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_security_bad_cert_title">Conexión segura fallida</string>
+    <string name="mozac_browser_errorpages_security_ssl_message"><![CDATA[
+      <ul>
+        <li>La página que estás intentando ver no se puede mostrar porque no se ha podido verificar la autenticidad de los datos recibidos.</li>
+        <li>Contacta con los propietarios del sitio web para informarles de este problema.</li>
+      </ul>]]></string>
+    <string name="mozac_browser_errorpages_security_ssl_title">Conexión segura fallida</string>
+    <string name="mozac_browser_errorpages_unknown_host_message"><![CDATA[
+	<p>El navegador no pudo encontrar el servidor para la dirección proporcionada.</p>
+	<ul>
+		<li>Comprueba que la dirección no contenga errores, por ejemplo, <strong>ww</strong>.ejemplo.com en lugar de <strong>www</strong>.ejemplo.com.</li>
+		<li>Si no puedes cargar ninguna página, revisa la conexión wifi o de datos del dispositivo móvil.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_unknown_host_title">No se encontró la dirección</string>
+    <string name="mozac_browser_errorpages_unknown_protocol_message"><![CDATA[
+	<p>La dirección especifica un protocolo (p. ej., <q>wxyz://</q>) que el navegador no reconoce, así que el navegador no puede conectarse correctamente con el sitio.</p>
+	<ul>
+		<li>¿Estás intentando acceder a contenido multimedia u otros servicios que no son de texto? Comprueba los requisitos adicionales del sitio.</li>
+		<li>Algunos protocolos pueden necesitar software o plugins de terceros antes de que el navegador pueda reconocerlos.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_unknown_protocol_title">Protocolo desconocido</string>
+    <string name="mozac_browser_errorpages_unknown_proxy_host_message"><![CDATA[
+	<p>El navegador está configurado para usar un servidor proxy, pero no se pudo encontrar el servidor proxy.</p>
+	<ul>
+		<li>¿Es correcta la configuración de proxy del navegador? Comprueba la configuración y vuelve a intentarlo.</li>
+		<li>¿Está conectado el equipo a una red activa?</li>
+		<li>¿Todavía tienes problemas? Consulta con el administrador de red o proveedor de Internet para obtener asistencia técnica.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_unknown_proxy_host_title">No se encontró el servidor proxy</string>
+    <string name="mozac_browser_errorpages_unknown_socket_type_message"><![CDATA[
+	<p>El sitio respondió a la solicitud de red de una forma inesperada y el navegador no puede continuar.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_unknown_socket_type_title">Respuesta inesperada del servidor</string>
+    <string name="mozac_browser_errorpages_unsafe_content_type_message"><![CDATA[
+	<ul>
+		<li>Ponte en contacto con los propietarios del sitio web para informarles de este problema.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_unsafe_content_type_title">Tipo de archivo no seguro</string>
+    <string name="mozac_browser_toolbar_menu_button">Menú</string>
+    <string name="mozac_browser_toolbar_progress_loading">Cargando</string>
+    <string name="mozac_clear_button_description">Limpiar</string>
+    <string name="mozac_feature_customtabs_exit_button">Volver a la aplicación anterior</string>
+    <string name="mozac_feature_customtabs_share_link">Compartir enlace</string>
+    <string name="mozac_lib_crash_channel">Fallos</string>
+    <string name="mozac_lib_crash_dialog_button_close">Cerrar</string>
+    <string name="mozac_lib_crash_dialog_button_restart">Reiniciar %1$s</string>
+    <string name="mozac_lib_crash_dialog_checkbox">Enviar informe de fallos a %1$s</string>
+    <string name="mozac_lib_crash_dialog_title">Lo sentimos. Hubo un problema con %1$s y se ha cerrado.</string>
+    <string name="mozac_lib_crash_notification_action_report">Informe</string>
+    <string name="mozac_support_ktx_menu_share_with">Compartir con…</string>
+    <string name="mozac_support_ktx_share_dialog_title">Compartir a través de</string>
+    <string name="new_tab_opened_snackbar">Nueva pestaña abierta</string>
+    <string name="no_suggestions_message">Algunos motores de búsqueda no pueden mostrar sugerencias.</string>
+    <string name="notification_action_erase_and_open">Borrar y abrir</string>
+    <string name="notification_action_open">Abrir</string>
+    <string name="notification_browsing_session_channel_description">Las notificaciones te permiten borrar la sesión de %1$s con un toque. No necesitas abrir la aplicación ni ver qué se está ejecutando en el navegador.</string>
+    <string name="notification_browsing_session_channel_name">Sesión de navegación privada</string>
+    <string name="notification_erase_text">Eliminar historial de navegación</string>
+    <string name="open_new_tab_snackbar">Cambiar</string>
+    <string name="preference_about">Acerca de %1$s</string>
+    <string name="preference_advanced_summary">Herramientas de desarrollo</string>
+    <string name="preference_autocomplete_action_add">+ Agregar URL personalizada</string>
+    <string name="preference_autocomplete_action_remove_content_description">Eliminar</string>
+    <string name="preference_autocomplete_add_confirmation">Se agregó una nueva URL personalizada.</string>
+    <string name="preference_autocomplete_add_error">Volver a comprobar la URL que has escrito.</string>
+    <string name="preference_autocomplete_add_example">Ejemplo: ejemplo.com</string>
+    <string name="preference_autocomplete_add_example2">Ejemplo: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">Pegar o escribir URL</string>
+    <string name="preference_autocomplete_add_title">Agregar URL</string>
+    <string name="preference_autocomplete_custom_summary">Agregar y gestionar autocompletado personalizado de URLs.</string>
+    <string name="preference_autocomplete_duplicate_url_error">La URL ya existe</string>
+    <string name="preference_autocomplete_learn_more">Descubrir más</string>
+    <string name="preference_autocomplete_menu_remove">Eliminar</string>
+    <string name="preference_autocomplete_subitem_manage_sites">Administrar sitios</string>
+    <string name="preference_autocomplete_title_add">Agregar URL personalizada</string>
+    <string name="preference_autocomplete_title_remove">Eliminar URLs personalizadas</string>
+    <string name="preference_autocomplete_topsite_summary">Activar para completar automáticamente más de 450 URLs populares en la barra de direcciones.</string>
+    <string name="preference_autocomplete_user_list_summary">Activar para completar automáticamente más de 450 URLs populares en la barra de direcciones.</string>
+    <string name="preference_category_advanced">Avanzado</string>
+    <string name="preference_category_autocomplete_manage_sites">Administrar sitios</string>
+    <string name="preference_category_cookies">Cookies y datos del sitio</string>
+    <string name="preference_category_data_choices">Opciones de datos</string>
+    <string name="preference_category_data_collection_use">Recopilación de datos y uso</string>
+    <string name="preference_category_general">General</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Rendimiento</string>
+    <string name="preference_category_privacy">Privacidad</string>
+    <string name="preference_category_safe_browsing">Navegación segura</string>
+    <string name="preference_category_search">Búsqueda</string>
+    <string name="preference_category_security">Seguridad</string>
+    <string name="preference_category_switching_apps">Cambiar entre aplicaciones</string>
+    <string name="preference_category_tracking_protection">Protección contra rastreo</string>
+    <string name="preference_category_web_content">Contenido web</string>
+    <string name="preference_default_browser2">Convertir %1$s en tu navegador predeterminado</string>
+    <string name="preference_exceptions">Excepciones</string>
+    <string name="preference_exceptions_description">Ha desactivado el bloqueo de contenido para estos sitios.</string>
+    <string name="preference_exceptions_menu_remove">Eliminar</string>
+    <string name="preference_exceptions_remove_all_button_label">Eliminar todos los sitios web</string>
+    <string name="preference_general_summary">Navegador predeterminado, pestañas, idioma</string>
+    <string name="preference_homescreen_tips">Mostrar consejos en la pantalla de inicio</string>
+    <string name="preference_language">Idioma</string>
+    <string name="preference_language_systemdefault">Predeterminado del sistema</string>
+    <string name="preference_mozilla_summary">Acerca de %1$s, ayuda</string>
+    <string name="preference_mozilla_telemetry2">Enviar datos de consumo</string>
+    <string name="preference_mozilla_telemetry_summary">Descubrir más</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla se esfuerza por recopilar solo lo necesario para proporcionar y mejorar %1$s para todos.</string>
+    <string name="preference_open_new_tab">Cambie a un enlace en una nueva pestaña inmediatamente</string>
+    <string name="preference_performance_block_javascript">Bloquear JavaScript</string>
+    <string name="preference_performance_block_javascript_summary">Las páginas pueden cargar más rápido, pero también pueden comportarse de forma inesperada</string>
+    <string name="preference_performance_block_webfonts">Bloquear fuentes web</string>
+    <string name="preference_performance_block_webfonts_summary">Puede hacer que falten iconos o imágenes</string>
+    <string name="preference_performance_request_desktop_site">Solicitar sitio de escritorio</string>
+    <string name="preference_privacy_and_security_header">Privacidad y seguridad</string>
+    <string name="preference_privacy_and_security_summary">Opciones de rastreo, cookies y datos</string>
+    <string name="preference_privacy_block_ads">Bloquear rastreadores de publicidad</string>
+    <string name="preference_privacy_block_ads_summary">Algunos anuncios, aunque no accedas a ellos, rastrean tus visitas a páginas web</string>
+    <string name="preference_privacy_block_analytics">Bloquear rastreadores analíticos</string>
+    <string name="preference_privacy_block_analytics_summary">Se utilizan para recopilar, analizar y medir tus actividades, como cuándo seleccionas algo o te deslizas por la página</string>
+    <string name="preference_privacy_block_content">Bloquear rastreadores de otros contenidos</string>
+    <string name="preference_privacy_block_content_summary2">Si lo activas, puede que algunas páginas no funcionen correctamente</string>
+    <string name="preference_privacy_block_social">Bloquear rastreadores sociales</string>
+    <string name="preference_privacy_block_social_summary">Incorporados en las páginas para rastrear tus visitas y mostrar funcionalidad, como botones para compartir</string>
+    <string name="preference_privacy_category_cookies">Bloquear cookies</string>
+    <string name="preference_privacy_notice">Aviso de privacidad</string>
+    <string name="preference_privacy_secure_mode">Invisible</string>
+    <string name="preference_privacy_should_block_cookies_no_option">No</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Bloquear sólo cookies de terceros</string>
+    <string name="preference_privacy_should_block_cookies_third_party_tracker_cookies_option">Bloquear solo cookies de rastreo de terceros</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Sí</string>
+    <string name="preference_privacy_stealth_summary">Ocultar páginas web al cambiar entre aplicaciones y bloquear las capturas de pantalla.</string>
+    <string name="preference_remote_debugging">Depuración remota a través de USB/Wi-Fi</string>
+    <string name="preference_safe_browsing_summary">Bloqueo de sitios informados como fraudulentos y de ataques, de malware y de software no deseado.</string>
+    <string name="preference_safe_browsing_title">Bloquear sitios potencialmente peligrosos y engañosos</string>
+    <string name="preference_search_add2">+ Añadir otro motor de búsqueda</string>
+    <string name="preference_search_engine_default">Predeterminado</string>
+    <string name="preference_search_engine_label">Buscador</string>
+    <string name="preference_search_installed_search_engines">Motores de búsqueda instalados</string>
+    <string name="preference_search_remove">Eliminar</string>
+    <string name="preference_search_remove_title">Eliminar motores de búsqueda</string>
+    <string name="preference_search_restore">Restaurar motores de búsqueda predeterminados</string>
+    <string name="preference_search_summary">Establecer como predeterminado, autocompletar</string>
+    <string name="preference_security_biometric">Usar la huella digital para desbloquear la aplicación</string>
+    <string name="preference_security_biometric_summary">Tu huella digital puede desbloquear %1$s si ya está abierta una URL en la aplicación. Se activará el modo invisible.</string>
+    <string name="preference_show_search_suggestions">Obtener sugerencias de búsqueda</string>
+    <string name="preference_show_search_suggestions_summary">%1$s enviará lo que escribas en la barra de direcciones a tu buscador</string>
+    <string name="preference_state_off">Desactivado</string>
+    <string name="preference_state_on">Activado</string>
+    <string name="preference_subitem_autocomplete">Autocompletar URL</string>
+    <string name="preference_switch_autocomplete_topsites">Para los sitios frecuentes</string>
+    <string name="preference_switch_autocomplete_user_list">Para los sitios que añades</string>
+    <string name="search_add_confirmation">Nuevo motor de búsqueda añadido.</string>
+    <string name="search_add_error_duplicate_name">Un motor de búsqueda instalado ya está usando ese nombre.</string>
+    <string name="search_add_error_empty_name">Introducir nombre del motor de búsqueda</string>
+    <string name="search_add_error_empty_search">Introducir cadena de búsqueda</string>
+    <string name="search_add_error_format">Comprueba que la cadena de búsqueda coincide con el formato del ejemplo</string>
+    <string name="search_add_manually_example">Ejemplo: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Nombre del motor de búsqueda</string>
+    <string name="search_add_manually_save">Guardar</string>
+    <string name="search_add_manually_string">Cadena de búsqueda que se usará</string>
+    <string name="search_hint">Buscar %1$s</string>
+    <string name="security_popup_insecure_connection">Conexión no segura</string>
+    <string name="security_popup_secure_connection">Conexión segura</string>
+    <string name="security_popup_security_verified">Verificado por: %1$s</string>
+    <string name="share_dialog_title">Compartir vía</string>
+    <string name="shortcut_erase_and_open_long_label">Borrar y abrir %1$s</string>
+    <string name="shortcut_erase_and_open_short_label">Borrar y abrir</string>
+    <string name="shortcut_erase_long_label">Eliminar historial de navegación</string>
+    <string name="shortcut_erase_short_label">Eliminar</string>
+    <string name="site_security_icon_content_description">Seguridad del sitio</string>
+    <string name="tab_crash_report_close_tab_button_label">Cerrar pestaña</string>
+    <string name="tab_crash_report_description">Como navegador privado, nunca guardamos y no podemos restaurar esta pestaña.</string>
+    <string name="tab_crash_report_headline">Lo sentimos. Tenemos problemas con esta pestaña.</string>
+    <string name="tab_crash_report_title">La pestaña falló</string>
+    <string name="tabs_tray_action_erase">Eliminar historial de navegación</string>
+    <string name="teaser">Navegación privada automática.\nNavega. Borra. Repite.</string>
+    <string name="text_selection_search_action">Búsqueda privada</string>
+    <string name="tip_add_to_homescreen">Obtén acceso con un toque a los sitios que más usas %1$s Menú > Añadir a la pantalla de inicio</string>
+    <string name="tip_autocomplete_url">Autocompletar las URLs para los sitios que más usas\n Mantén presionada cualquier URL en la barra de direcciones</string>
+    <string name="tip_disable_tips2">Desactivar los consejos en la pantalla de inicio</string>
+    <string name="tip_disable_tracking_protection">¿El sitio se comporta de forma inesperada?\n Intenta desactivar la protección contra el rastreo</string>
+    <string name="tip_explain_allowlist">¿Es un sitio de confianza?\n Allowlist desactiva la protección contra el rastreo para sitios que conoces y en los que confías.</string>
+    <string name="tip_open_in_new_tab">Abrir un enlace en una nueva pestaña\n Mantén presionado cualquier enlace de una página</string>
+    <string name="tip_request_desktop">¿Prefieres ver el sitio de escritorio?%1$s Menú > Solicitar sitio de escritorio</string>
+    <string name="tip_set_default_browser">Abrir todos los enlaces en %1$s\n Establecer %1$s como navegador predeterminado</string>
+    <string name="urlbar_hint">Buscar o escribir dirección</string>
+    <string name="your_rights">Tus derechos</string>
+    <string name="your_rights_content1">%1$s es software de código abierto y gratuito, creado por Mozilla y otros colaboradores.</string>
+    <string name="your_rights_content2"><![CDATA["%1$s está disponible de acuerdo con los términos de la "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%2$s">Licencia p&#250;blica de Mozilla</a>" y otras licencias de código abierto."]]></string>
+    <string name="your_rights_content3"><![CDATA["No tienes ningún derecho o licencia sobre las marcas registradas de la Fundación Mozilla ni cualquier otra parte interesada, incluidos los nombres o logos de Mozilla, Firefox o %1$s. "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%2$s">Aqu&#237;</a>" puedes encontrar más información."]]></string>
+    <string name="your_rights_content4"><![CDATA["Otras "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%2$s">licencias</a>" de código abierto y gratuitas también incluyen código fuente adicional para %1$s."]]></string>
+    <string name="your_rights_content5"><![CDATA["%1$s también utiliza las listas de bloqueo de DIsconnect, Inc. como trabajos separados e independientes bajo la "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%2$s">Licencia P&#250;blica General de GNU v3</a>" y que puedes encontrar "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%3$s">aqu&#237;</a>.]]></string>
+</resources>

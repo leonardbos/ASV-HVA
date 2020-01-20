@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.geckoview:geckoview:71.0.20200108003105@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cbcee8a26311d404bfaadee16a3953f1/jetified-geckoview-71.0.20200108003105/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cbcee8a26311d404bfaadee16a3953f1/jetified-geckoview-71.0.20200108003105/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cbcee8a26311d404bfaadee16a3953f1/jetified-geckoview-71.0.20200108003105/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.geckoview/geckoview/71.0.20200108003105/f5f591fe1ecdb10e6c65aca8278da40b0d1a14fd/geckoview-71.0.20200108003105-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.geckoview/geckoview/71.0.20200108003105/6ea4d8e99baa896d0c25c5944a553e7d136b0372/geckoview-71.0.20200108003105-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

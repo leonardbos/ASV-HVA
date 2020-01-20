@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.components:lib-fetch-httpurlconnection:12.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3fd9a454790c5fde18cb7d6c75b5102e/lib-fetch-httpurlconnection-12.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3fd9a454790c5fde18cb7d6c75b5102e/lib-fetch-httpurlconnection-12.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.components/lib-fetch-httpurlconnection/12.0.0/4aadf6c06b9b53f83d287fcc17c78fb0f137a537/lib-fetch-httpurlconnection-12.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

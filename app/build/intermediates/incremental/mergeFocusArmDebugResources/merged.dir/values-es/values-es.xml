@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Eliminar"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Avanzada"</string>
+    <string name="mozac_browser_errorpages_connection_failure_message"><![CDATA[
+	<ul>
+		<li>El sitio podría no estar disponible temporalmente o estar demasiado ocupado. Vuelva a intentarlo en unos minutos.</li>
+		<li>Si no puede cargar ninguna página, revise la conexión wifi o de datos de su dispositivo móvil.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_connection_failure_title">No se puede conectar</string>
+    <string name="mozac_browser_errorpages_content_crashed_message"><![CDATA[
+	<p>La página que está intentando ver no puede mostrarse porque se detectó un error en la transmisión de los datos.</p>
+	<ul>
+		<li>Póngase en contacto con los propietarios del sitio web para informarles de este problema.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_content_crashed_title">Contenido bloqueado</string>
+    <string name="mozac_browser_errorpages_corrupted_content_message"><![CDATA[
+	<p>La página que está intentando ver no puede mostrarse porque se detectó un error en la transmisión de los datos.</p>
+	<ul>
+		<li>Póngase en contacto con los propietarios del sitio web para informarles de este problema.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_corrupted_content_title">Error de contenido dañado</string>
+    <string name="mozac_browser_errorpages_file_access_denied_message"><![CDATA[
+	<ul>
+		<li>Puede haberse eliminado o movido, o sus permisos de archivo pueden estar impidiendo el acceso.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_file_access_denied_title">El acceso al archivo ha sido denegado</string>
+    <string name="mozac_browser_errorpages_file_not_found_message"><![CDATA[
+	<ul>
+		<li>¿Es posible que el elemento se haya renombrado, eliminado o cambiado de ruta?</li>
+		<li>¿Hay algún error de ortografía, de uso de mayúsculas o de cualquier otro tipo en la dirección?</li>
+		<li>¿Tiene privilegios de acceso suficientes para el elemento solicitado?</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_file_not_found_title">Archivo no encontrado</string>
+    <string name="mozac_browser_errorpages_generic_message"><![CDATA[
+	<p>Actualmente, no hay información adicional disponible para este problema o error.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_generic_title">No se pudo completar la solicitud</string>
+    <string name="mozac_browser_errorpages_invalid_content_encoding_message"><![CDATA[
+	<p>La página que está intentando ver no puede mostrarse porque usa una forma no válida o no admitida de compresión.</p>
+	<ul>
+		<li>Póngase en contacto con los propietarios del sitio web para informarles de este problema.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_invalid_content_encoding_title">Error de codificación de contenido</string>
+    <string name="mozac_browser_errorpages_malformed_uri_message"><![CDATA[
+	<p>La dirección proporcionada no está en un formato reconocido. Compruebe si hay errores en la barra de direcciones y vuelva a intentarlo.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_malformed_uri_message_alternative"><![CDATA[
+	<ul>
+		<li>Las direcciones web suelen escribirse así: <strong>http://www.ejemplo.com/</strong></li> 
+		<li>Asegúrese de estar usando barras inclinadas hacia adelante (p. ej., <strong>/</strong>).</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_malformed_uri_title">La dirección no es válida</string>
+    <string name="mozac_browser_errorpages_malformed_uri_title_alternative">La dirección no es válida</string>
+    <string name="mozac_browser_errorpages_net_interrupt_message"><![CDATA[
+	<p>El navegador se conectó con éxito, pero se interrumpió la conexión mientras se transfería la información. Vuelva a intentarlo.</p>
+	<ul>
+		<li>El sitio podría no estar disponible temporalmente o estar demasiado ocupado. Vuelva a intentarlo en unos minutos.</li>
+		<li>Si no puede cargar ninguna página, revise la conexión wifi o de datos de su dispositivo móvil.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_net_interrupt_title">La conexión ha sido interrumpida</string>
+    <string name="mozac_browser_errorpages_net_reset_message"><![CDATA[
+	<p>El enlace con la red se interrumpió mientras se negociaba una conexión. Vuelva a intentarlo.</p>
+	<ul>
+		<li>El sitio podría no estar disponible temporalmente o estar demasiado ocupado. Vuelva a intentarlo en unos minutos.</li>
+		<li>Si no puede cargar ninguna página, revise la conexión wifi o de datos de su dispositivo móvil.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_net_reset_title">La conexión ha sido reiniciada</string>
+    <string name="mozac_browser_errorpages_net_timeout_message"><![CDATA[
+	<p>El sitio solicitado no respondió a una petición de conexión y el navegador ha dejado de esperar una respuesta.</p>
+	<ul>
+		<li>¿Podría estar experimentando el servidor una alta demanda o un corte temporal? Vuelva a intentarlo más tarde.</li>
+		<li>¿No puede navegar por otros sitios? Compruebe la conexión de red del equipo.</li>
+		<li>¿Su red o equipo está protegido por un firewall o un proxy? Una configuración incorrecta puede interferir con la navegación web.</li>
+		<li>¿Todavía con problemas? Consulte con su administrador de red o proveedor de Internet para obtener asistencia técnica.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_net_timeout_title">La conexión ha caducado</string>
+    <string name="mozac_browser_errorpages_offline_message"><![CDATA[
+	<p>El navegador está operando en modo sin conexión y no puede conectarse con el elemento solicitado.</p>
+	<ul>
+		<li>¿Está conectado el equipo a una red activa?</li>
+		<li>Pulse "Volver a intentarlo" para pasar al modo con conexión y recargar la página.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_offline_title">Modo sin conexión</string>
+    <string name="mozac_browser_errorpages_page_go_back">Volver atrás</string>
+    <string name="mozac_browser_errorpages_page_refresh">Reintentar</string>
+    <string name="mozac_browser_errorpages_page_title">Problema al cargar la página</string>
+    <string name="mozac_browser_errorpages_port_blocked_message"><![CDATA[
+	<p>La dirección solicitada especificaba un puerto (p. ej., <q>mozilla.org:80</q> para el puerto 80 de mozilla.org) que suele usarse para propósitos <em>distintos</em> a navegar por Internet. El navegador ha cancelado la solicitud para su protección y seguridad.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_port_blocked_title">Puerto restringido por razones de seguridad</string>
+    <string name="mozac_browser_errorpages_proxy_connection_refused_message"><![CDATA[
+	<p>El navegador está configurado para usar un servidor proxy, pero el proxy rechazó la conexión.</p>
+	<ul>
+		<li>¿Es correcta la configuración de proxy del navegador? Compruebe la configuración y vuelva a intentarlo.</li>
+		<li>¿Permite el servicio proxy conexiones desde esta red?</li>
+		<li>¿Todavía con problemas? Consulte con su administrador de red o proveedor de Internet para obtener asistencia técnica.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_proxy_connection_refused_title">El servidor proxy rechazó la conexión</string>
+    <string name="mozac_browser_errorpages_redirect_loop_message"><![CDATA[
+	<p>El navegador se ha detenido intentando recuperar el elemento solicitado. El sitio está redirigiendo la solicitud de una forma que nunca se va a completar.</p>
+	<ul>
+		<li>¿Tiene desactivadas o bloqueadas las cookies requeridas por este sitio?</li>
+		<li>Si aceptar las cookies del sitio no resuelve el problema, es probable que sea un problema de configuración del servidor y no de su equipo.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_redirect_loop_title">La página no está redirigiendo adecuadamente</string>
+    <string name="mozac_browser_errorpages_safe_browsing_malware_uri_message"><![CDATA[
+	<p>El sitio en %1$s se ha identificado como un sitio atacante y se ha bloqueado de acuerdo con sus preferencias de seguridad.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_safe_browsing_malware_uri_title">Problema de sitio de malware</string>
+    <string name="mozac_browser_errorpages_safe_browsing_unwanted_uri_message"><![CDATA[
+	<p>El sitio en %1$s se ha identificado como un sitio que ofrece software no deseado y se ha bloqueado de acuerdo con sus preferencias de seguridad.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_safe_browsing_unwanted_uri_title">Problema de sitio no deseado</string>
+    <string name="mozac_browser_errorpages_safe_harmful_uri_message"><![CDATA[
+	<p>El sitio en %1$s se ha identificado como un sitio potencialmente dañino y se ha bloqueado de acuerdo con sus preferencias de seguridad.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_safe_harmful_uri_title">Problema de sitio dañino</string>
+    <string name="mozac_browser_errorpages_safe_phishing_uri_message"><![CDATA[
+	<p>La página web en %1$s se ha identificado como un sitio engañoso y se ha bloqueado de acuerdo con sus preferencias de seguridad.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_safe_phishing_uri_title">Problema de sitio engañoso</string>
+    <string name="mozac_browser_errorpages_security_bad_cert_message"><![CDATA[
+	<ul>
+		<li>Puede haber un problema en la configuración del servidor, o bien alguien podría estar intentando suplantar el servidor.</li>
+		<li>Si ya se ha conectado anteriormente a este servidor con éxito, el error puede ser temporal, por lo que puede intentar nuevamente en breve.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_security_bad_cert_title">La conexión segura ha fallado</string>
+    <string name="mozac_browser_errorpages_security_ssl_message"><![CDATA[
+	<ul>
+		<li>No es posible mostrar la página que está intentando ver porque no se ha podido verificar la autenticidad de los datos recibidos.</li>
+		<li>Póngase en contacto con los propietarios del sitio web para informarles de este problema.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_security_ssl_title">La conexión segura ha fallado</string>
+    <string name="mozac_browser_errorpages_unknown_host_message"><![CDATA[
+	<p>El navegador no pudo encontrar el servidor para la dirección proporcionada.</p>
+	<ul>
+		<li>Verifique que la dirección no contenga errores, por ejemplo, <strong>ww</strong>.ejemplo.com en lugar de <strong>www</strong>.ejemplo.com.</li>
+		<li>Si no puede cargar ninguna página, revise la conexión wifi o de datos de su dispositivo móvil.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_unknown_host_title">No se encontró la dirección</string>
+    <string name="mozac_browser_errorpages_unknown_protocol_message"><![CDATA[
+	<p>La dirección especifica un protocolo (p. ej., <q>wxyz://</q>) que el navegador no reconoce, así que el navegador no puede conectarse correctamente con el sitio.</p>
+	<ul>
+		<li>¿Está intentando acceder a contenido multimedia u otros servicios que no son de texto? Compruebe los requisitos adicionales del sitio.</li>
+		<li>Algunos protocolos pueden necesitar software o plugins de terceros antes de que el navegador pueda reconocerlos.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_unknown_protocol_title">Protocolo desconocido</string>
+    <string name="mozac_browser_errorpages_unknown_proxy_host_message"><![CDATA[
+	<p>El navegador está configurado para usar un servidor proxy, pero no se pudo encontrar el servidor proxy.</p>
+	<ul>
+		<li>¿Es correcta la configuración de proxy del navegador? Compruebe la configuración y vuelva a intentarlo.</li>
+		<li>¿Está conectado el equipo a una red activa?</li>
+		<li>¿Todavía con problemas? Consulte con su administrador de red o proveedor de Internet para obtener asistencia técnica.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_unknown_proxy_host_title">No se encontró el servidor proxy</string>
+    <string name="mozac_browser_errorpages_unknown_socket_type_message"><![CDATA[
+	<p>El sitio respondió a la solicitud de red de una forma inesperada y el navegador no puede continuar.</p>
+	]]></string>
+    <string name="mozac_browser_errorpages_unknown_socket_type_title">Respuesta inesperada del servidor</string>
+    <string name="mozac_browser_errorpages_unsafe_content_type_message"><![CDATA[
+	<ul>
+		<li>Póngase en contacto con los propietarios del sitio web para informarles de este problema.</li>
+	</ul>
+	]]></string>
+    <string name="mozac_browser_errorpages_unsafe_content_type_title">Tipo de archivo no seguro</string>
+    <string name="mozac_browser_toolbar_menu_button">Menú</string>
+    <string name="mozac_browser_toolbar_progress_loading">Cargando</string>
+    <string name="mozac_clear_button_description">Limpiar</string>
+    <string name="mozac_feature_applinks_confirm_dialog_confirm">Abrir</string>
+    <string name="mozac_feature_applinks_confirm_dialog_deny">Cancelar</string>
+    <string name="mozac_feature_applinks_confirm_dialog_title">¿Abrir en aplicación? Puede que lo que haces deje de ser privado.</string>
+    <string name="mozac_feature_applinks_open_in">Abrir en…</string>
+    <string name="mozac_feature_customtabs_exit_button">Volver a la aplicación anterior</string>
+    <string name="mozac_feature_customtabs_share_link">Compartir enlace</string>
+    <string name="mozac_lib_crash_channel">Fallos</string>
+    <string name="mozac_lib_crash_dialog_button_close">Cerrar</string>
+    <string name="mozac_lib_crash_dialog_button_restart">Reiniciar %1$s</string>
+    <string name="mozac_lib_crash_dialog_checkbox">Enviar informe de fallos a %1$s</string>
+    <string name="mozac_lib_crash_dialog_title">Lo sentimos. Hubo un problema con %1$s y se cerró.</string>
+    <string name="mozac_lib_crash_notification_action_report">Informe</string>
+    <string name="mozac_support_ktx_menu_share_with">Compartir con…</string>
+    <string name="mozac_support_ktx_share_dialog_title">Compartir por</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"DESACTIVADA"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ACTIVADO"</string>
+</resources>

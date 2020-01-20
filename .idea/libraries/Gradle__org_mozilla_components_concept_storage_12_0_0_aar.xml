@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.components:concept-storage:12.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7cf9218c01d57c1307a89c6f80fbca56/concept-storage-12.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7cf9218c01d57c1307a89c6f80fbca56/concept-storage-12.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.components/concept-storage/12.0.0/2f9f75e0d60cab88ff09ef8efb71bd80f91a9dab/concept-storage-12.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

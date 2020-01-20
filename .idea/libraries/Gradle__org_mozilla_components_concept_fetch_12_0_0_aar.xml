@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.components:concept-fetch:12.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e6d6796687dbfd65fa56e7026921588/concept-fetch-12.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e6d6796687dbfd65fa56e7026921588/concept-fetch-12.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.components/concept-fetch/12.0.0/db26233d9189ad24fb118d6ff31af428b9677a37/concept-fetch-12.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

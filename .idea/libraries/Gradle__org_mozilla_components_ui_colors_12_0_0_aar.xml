@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.components:ui-colors:12.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da3fecac015c5a3e138b832bc346d304/ui-colors-12.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da3fecac015c5a3e138b832bc346d304/ui-colors-12.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.components/ui-colors/12.0.0/7d2e41125a63295894826e18dc67546db84e8b41/ui-colors-12.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

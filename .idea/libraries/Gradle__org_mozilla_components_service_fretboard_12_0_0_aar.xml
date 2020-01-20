@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.components:service-fretboard:12.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c14e36a583e50b1d90ccdb93d4316824/service-fretboard-12.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c14e36a583e50b1d90ccdb93d4316824/service-fretboard-12.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.components/service-fretboard/12.0.0/3802ac867fe3244b596f7880ec44b6f8d9f16956/service-fretboard-12.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

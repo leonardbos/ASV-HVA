@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Joan orri nagusira"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Joan gora"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Aukera gehiago"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Eginda"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ikusi guztiak"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Aukeratu aplikazio bat"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESAKTIBATUTA"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AKTIBATUTA"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ktrl +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Ezabatu"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Sartu"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Funtzioa +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Maius +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"Zuriunea"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menua +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Bilatu…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Garbitu kontsulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Bilaketa-kontsulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Bilatu"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Bidali kontsulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ahozko bilaketa"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partekatu hauekin"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Partekatu <ns1:g id="APPLICATION_NAME">%s</ns1:g> aplikazioarekin"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Tolestu"</string>
+    <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s(e)k agintea ematen dizu.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Erabili nabigatzaile pribatu gisa:\n  "<ul>"\n    "<li>Bilatu eta nabigatu aplikaziotik zuzenean</li>"\n    "<li>Blokeatu jarraipena (edo eguneratu ezarpenak jarraipena onartzeko)</li>"\n    "<li>Ezabatu cookieak eta bilaketa- eta nabigatze-historia</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">Mozillak egina da %1$s. Internet osasuntsu eta irekia sustatzea da gure misioa.<br/>\n<a href="%2$s">Argibide gehiago</a></p>]]></string>
+    <string name="accessibility_announcement_loading">Kargatzen</string>
+    <string name="accessibility_announcement_loading_finished">Webgunea kargatuta</string>
+    <string name="accessibility_dismiss_find_in_page">Baztertu orrian bilatzea</string>
+    <string name="accessibility_find_in_page_result">%2$d(e)tik %1$d</string>
+    <string name="accessibility_next_result">Bilatu hurrengo emaitza</string>
+    <string name="accessibility_previous_result">Bilatu aurreko emaitza</string>
+    <string name="action_cancel">Utzi</string>
+    <string name="action_ok">Ados</string>
+    <string name="action_option_add_search_engine">Gehitu bilaketa-motorra</string>
+    <string name="action_save">Gorde</string>
+    <string name="add_custom_autocomplete_label">Gehitu automatikoki osatzeko lotura</string>
+    <string name="biometric_auth_description">Jarraitzeko, ukitu hatz-marka sentsorea.</string>
+    <string name="biometric_auth_image_description">Hatz-markaren ikonoa</string>
+    <string name="biometric_auth_moved_too_quickly">Hatza azkarregi mugitu da. Saiatu berriro.</string>
+    <string name="biometric_auth_new_session">Saio berria</string>
+    <string name="biometric_auth_not_recognized_error">Ez da hatz-marka ezagutu. Saiatu berriro.</string>
+    <string name="biometric_auth_title">Desblokeatu %1$s</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Nabigatu atzera</string>
+    <string name="content_description_blocking_switch">Blokeatu jarraipena</string>
+    <string name="content_description_clear_input">Garbitu idatzitakoa</string>
+    <string name="content_description_customtab_exit">Itzuli aurreko aplikaziora</string>
+    <string name="content_description_dismiss_input">Baztertu</string>
+    <string name="content_description_erase">Ezabatu nabigatze-historia</string>
+    <string name="content_description_forward">Nabigatu aurrera</string>
+    <string name="content_description_lock">Konexio segurua</string>
+    <string name="content_description_menu">Aukera gehiago</string>
+    <string name="content_description_reload">Berritu webgunea</string>
+    <string name="content_description_stop">Gelditu webgunea kargatzen</string>
+    <string name="content_description_tab_counter">Irekitako fitxak: %1$s</string>
+    <string name="content_description_trackers_blocked">Blokeatutako elementu kopurua</string>
+    <string name="contextmenu_image_copy">Kopiatu irudiaren helbidea</string>
+    <string name="contextmenu_image_save">Gorde irudia</string>
+    <string name="contextmenu_image_share">Partekatu irudia</string>
+    <string name="contextmenu_image_warning"><![CDATA["Deskargatutako eta partekatutako irudiak "<b xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">ez dira ezabatuko</b>" %1$s(r)en historia ezabatzean."]]></string>
+    <string name="contextmenu_link_copy">Kopiatu loturaren helbidea</string>
+    <string name="contextmenu_link_share">Partekatu lotura</string>
+    <string name="contextmenu_open_in_app">Ireki aplikazioarekin</string>
+    <string name="contextmenu_open_in_new_tab">Ireki lotura fitxa berrian</string>
+    <string name="crash_report_send_crash_label">Bidali hutsegite-txostena Mozillara</string>
+    <string name="custom_autocomplete_quick_add">Gehitu URL pertsonalizatua</string>
+    <string name="custom_tab_copy_url_action">URLa kopiatu da</string>
+    <string name="dialog_addtohomescreen_action_add">Gehitu</string>
+    <string name="dialog_addtohomescreen_action_cancel">Utzi</string>
+    <string name="dialog_addtohomescreen_tracking_protection">Lasterbidea jarraipenaren babesa desgaituta irekiko da</string>
+    <string name="dismiss_no_suggestions_prompt_button">Baztertu</string>
+    <string name="download_dialog_action_cancel">Utzi</string>
+    <string name="download_dialog_action_download">Deskargatu</string>
+    <string name="download_dialog_title">Deskargatu fitxategia</string>
+    <string name="download_dialog_warning"><![CDATA["Deskargatutako fitxategiak "<b xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">ez dira ezabatuko</b>" %1$s(r)en historia ezabatzean."]]></string>
+    <string name="download_firefox">Deskargatu Firefox</string>
+    <string name="download_snackbar_finished">%1$s amaituta</string>
+    <string name="download_snackbar_open">Ireki</string>
+    <string name="enable_search_suggestion_subtitle">Bilaketa-iradokizunak lortzeko, helbide-barran idazten duzuna aukeratu duzun bilaketa-motorrari bidali behar dio %1$s(e)k. %2$s.</string>
+    <string name="enable_search_suggestion_subtitle_learnmore">Argibide gehiago</string>
+    <string name="enable_search_suggestion_title">Bilaketa-iradokizunak gaitu nahi dituzu?</string>
+    <string name="enable_search_suggestions_no">Ez</string>
+    <string name="enable_search_suggestions_yes">Bai</string>
+    <string name="error_connectionfailure_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n        "<li>Gunea une batez desgaituta edo oso lanpetuta egon daiteke. Saiatu berriro minutu batzuen buruan.</li>"\n        "<li>Ezin baduzu beste orririk kargatu, egiaztatu zure gailu mugikorraren datu- edo WiFi-konexioa.</li>"\n      "</ul>]]></string>
+    <string name="error_connectionfailure_title">Ezin da konektatu</string>
+    <string name="error_generic_message">Ezin dugu orri hau kargatu arrazoi ezezagun batengatik.</string>
+    <string name="error_generic_title">Iepa</string>
+    <string name="error_hostLookup_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n        "<li>"Helbidea ondo begiratu mota honetako erroreak ekiditeko:\n          "<strong>ww</strong>".adibidea.eus \n          "<strong>www</strong>.adibidea.eus-en ordez</li>"\n        "<li>Ezin baduzu inolako orririk kargatu, begiratu zure gailuaren datu- edo WiFi-konexioa.</li>"\n      "</ul>]]></string>
+    <string name="error_hostLookup_title">Zerbitzaria ez da aurkitu</string>
+    <string name="error_malformedURI_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n  "<li>"Web helbideak normalean "<strong>http://www.adibidea.eus/</strong>" formatukoak dira"</li>"\n  "<li>"Ziurtatu aurrerako barrak erabiltzen dituzula (hau da, "<strong>/</strong>).</li>\n</ul>]]></string>
+    <string name="error_malformedURI_title">Helbidea ez da baliozkoa</string>
+    <string name="error_redirectLoop_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n  "<li>Arazo hau baliteke cookieak desgaituta eduki edo ez onartzeagatik izatea.</li>\n</ul>]]></string>
+    <string name="error_redirectLoop_title">Orriak ez du birbideraketa ondo egiten</string>
+    <string name="error_sslhandshake_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n  "<li>Hau zerbitzariaren konfigurazio-errore batengatik edo\nnorbait zerbitzariaren nortasuna hartzen ari delako izan daiteke.</li>"\n  "<li>Aurretik zerbitzari honetara behar bezala konektatu bazara, errorea\nbehin-behinekoa izan daiteke eta geroago saia zaitezke.</li>\n</ul>]]></string>
+    <string name="error_sslhandshake_title">Konexio seguruak huts egin du</string>
+    <string name="error_timeout_title">Konexioaren denbora-muga gainditu da</string>
+    <string name="error_unsupportedprotocol_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n  "<li>Agian bestelako softwarea instalatu behar duzu helbide hau irekitzeko.</li>\n</ul>]]></string>
+    <string name="error_unsupportedprotocol_title">Ez da helbidea ulertu</string>
+    <string name="errorpage_refresh">Saiatu berriro</string>
+    <string name="errorpage_title">Arazoa orria kargatzerakoan</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Hobespen aurreratuak"</string>
+    <string name="external_app_prompt">%1$s utz dezakezu lotura hau %2$s aplikazioan irekitzeko.</string>
+    <string name="external_app_prompt_no_app">Ez dago lotura hau irekitzeko gai den aplikaziorik zure gailuan. %1$s utz dezakezu lotura ireki dezaken aplikazio bat %2$s(e)n bilatzeko.</string>
+    <string name="external_app_prompt_no_app_title">Bilatu lotura ireki dezakeen aplikazio bat</string>
+    <string name="external_app_prompt_title">Ireki lotura beste aplikazio batean</string>
+    <string name="external_multiple_apps_matched_exit">Irten nabigazio pribatutik?</string>
+    <string name="fatal_crash_report_close_button_label">Itxi</string>
+    <string name="fatal_crash_report_description">Nabigatzaile pribatu gisa, inoiz ez dugu ezer gordetzen eta ezin dugu zure azken nabigazio-saioa berreskuratu.</string>
+    <string name="fatal_crash_report_restart_firefox_label">Berrabiarazi %1$s</string>
+    <string name="fatal_crash_report_title">Barkatu. %1$s(e)k arazo bat izan du eta huts egin du.</string>
+    <string name="feedback_erase">Zure nabigatze-historia ezabatu egin da.</string>
+    <string name="feedback_erase_custom_tab">Fitxaren nabigatze-historia ezabatu egin da.</string>
+    <string name="find_in_page">Bilatu orrian</string>
+    <string name="find_in_page_input">Bilatu orrian</string>
+    <string name="find_in_page_result">%2$d/%1$d</string>
+    <string name="firstrun_close_button">Ulertuta!</string>
+    <string name="firstrun_defaultbrowser_text2">Eraman nabigatze pribatua hurrengo mailara. Blokeatu iragarkiak eta webguneetan zehar zure jarraipena egin edo orrien karga-denbora makal dezaketen edukiak.</string>
+    <string name="firstrun_defaultbrowser_title">Indartu zure pribatutasuna</string>
+    <string name="firstrun_next_button">Hurrengoa</string>
+    <string name="firstrun_privacy_text">Ezarri %1$s nabigatzaile lehenetsi gisa eta eskuratu nabigatze pribatuaren onurak beste aplikazioetatik web orriak irekitzean.</string>
+    <string name="firstrun_privacy_title">Egizu pribatutasuna zure ohitura</string>
+    <string name="firstrun_search_text">Zerbait desberdinaren bila? Aukeratu beste bilaketa-motor lehenetsi bat ezarpenetan.</string>
+    <string name="firstrun_search_title">Bilaketa, zure erara</string>
+    <string name="firstrun_shortcut_text">Itzuli azkar batean zure gogoko guneetara %1$s(r)en. Hautatu \'Gehitu hasierako pantailan\' %1$s menutik.</string>
+    <string name="firstrun_shortcut_title">Gehitu lasterbideak zure hasierako pantailan</string>
+    <string name="firstrun_skip_button">Saltatu</string>
+    <string name="gv_prompt_clear">Garbitu</string>
+    <string name="gv_prompt_password_hint">Pasahitza</string>
+    <string name="gv_prompt_username_hint">Erabiltzaile-izena</string>
+    <string name="http_auth_dialog_password">Pasahitza</string>
+    <string name="http_auth_dialog_title">Autentifikazioa beharrezkoa</string>
+    <string name="http_auth_dialog_username">Erabiltzaile-izena</string>
+    <string name="indicator_content_description_menu">Aukera gehiagorako botoia</string>
+    <string name="menu_about">Honi buruz</string>
+    <string name="menu_add_to_home_screen">Gehitu hasierako pantailan</string>
+    <string name="menu_content_blocking">Edukia blokeatzea</string>
+    <string name="menu_content_blocking_subtitle">Itzali zenbait gune konpontzeko</string>
+    <string name="menu_custom_tab_branding">%1$s nabigatzaileak hornitua</string>
+    <string name="menu_help">Laguntza</string>
+    <string name="menu_open_with_a_browser2">Ireki honekin…</string>
+    <string name="menu_open_with_default_browser2">Ireki %1$s nabigatzailean</string>
+    <string name="menu_report_site_issue">Eman gunearen arazoaren berri</string>
+    <string name="menu_rights">Zure eskubideak</string>
+    <string name="menu_settings">Ezarpenak</string>
+    <string name="menu_share">Partekatu…</string>
+    <string name="menu_trackers_blocked_subtitle">Hau itzaltzeak zenbait guneren arazoak konpon litzake</string>
+    <string name="menu_trackers_blocked_title">Blokeatutako elementuak</string>
+    <string name="menu_whats_new">Nobedadeak</string>
+    <string name="mozac_browser_errorpages_connection_failure_message"><![CDATA[
+      <ul>
+        <li>Gunea une batez desgaituta edo oso lanpetuta egon daiteke. Saiatu berriro minutu batzuen buruan.</li>
+        <li>Ezin baduzu beste orririk kargatu, egiaztatu zure gailu mugikorraren datu- edo WiFi-konexioa.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_connection_failure_title">Ezin da konektatu</string>
+    <string name="mozac_browser_errorpages_content_crashed_message"><![CDATA[
+      <p>Ikusten saiatzen ari zaren orria ezin da erakutsi errore bat detektatu delako datu-transmisioan.</p>
+      <ul>
+        <li>Jarri harremanetan gunearen arduradunarekin arazo honen berri emateko.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_content_crashed_title">Edukiak huts egin du</string>
+    <string name="mozac_browser_errorpages_corrupted_content_message"><![CDATA[
+      <p>Ikusten saiatzen ari zaren orria ezin da erakutsi errore bat detektatu delako datu-transmisioan.</p>
+      <ul>
+        <li>Jarri harremanetan gunearen arduradunarekin arazo honen berri emateko.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_corrupted_content_title">Hondatutako edukien errorea</string>
+    <string name="mozac_browser_errorpages_file_access_denied_message"><![CDATA[
+      <ul>
+        <li>Kendua edo lekuz aldatua egon liteke, edo fitxategi-baimenek sarrera eragotz lezakete.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_file_access_denied_title">Fitxategi-atzipena ukatu egin da</string>
+    <string name="mozac_browser_errorpages_file_not_found_message"><![CDATA[
+      <ul>
+        <li>Elementuaren izena aldatua, elementua bera ezabatuta edo lekuz aldatua egon daiteke?</li>
+        <li>Helbidea oker idatzi duzu?</li>
+        <li>Baduzu eskatutako elementua jasotzeko baimenik?</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_file_not_found_title">Fitxategia ez da aurkitu</string>
+    <string name="mozac_browser_errorpages_generic_message"><![CDATA[
+      <p>Momentu honetan ez dago arazo edo errore honen inguruko argibide gehiago..</p>
+    ]]></string>
+    <string name="mozac_browser_errorpages_generic_title">Ezin da eskaera osatu</string>
+    <string name="mozac_browser_errorpages_invalid_content_encoding_message"><![CDATA[
+      <p>Ikusten saiatzen ari zaren orria ezin da ikusi baliogabeko edo onartzen ez den konpresio mota bat erabiltzen baitu.</p>
+      <ul>
+        <li>Jarri harremanetan gunearen arduradunarekin arazo honen berri emateko.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_invalid_content_encoding_title">Edukien kodeketa-errorea</string>
+    <string name="mozac_browser_errorpages_malformed_uri_message"><![CDATA[
+      <p>Idatzitako helbidearen formatua ez da ulertzen. Egiaztatu helbide-barran ea akatsik dagoen eta saiatu berriro.</p>
+    ]]></string>
+    <string name="mozac_browser_errorpages_malformed_uri_message_alternative"><![CDATA[
+      <ul>
+        <li>Web helbideak normalean <strong>http://www.adibidea.eus/</strong> formatukoak dira</li>
+        <li>Ziurtatu aurrerako barrak erabiltzen dituzula (hau da, <strong>/</strong>).</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_malformed_uri_title">Helbide baliogabea</string>
+    <string name="mozac_browser_errorpages_malformed_uri_title_alternative">Helbidea ez da baliozkoa</string>
+    <string name="mozac_browser_errorpages_net_interrupt_message"><![CDATA[
+      <p>Nabigatzaileak konexioa ondo sortu du, baina datuak jasotzen ari zela transferentzia eten egin da.  Mesedez, saiatu berriro.</p>
+      <ul>
+        <li>Gunea une batez desgaituta edo oso lanpetuta egon daiteke. Saiatu berriro minutu batzuen buruan.</li>
+        <li>Ezin baduzu beste orririk kargatu, egiaztatu zure gailuaren datu- edo WiFi-konexioa.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_net_interrupt_title">Konexioa eten egin da</string>
+    <string name="mozac_browser_errorpages_net_reset_message"><![CDATA[
+      <p>Sareko lotura eten egin da konexioa negoziatzerakoan. Mesedez saiatu berriro.</p>
+      <ul>
+        <li>Gunea une batez desgaituta edo oso lanpetuta egon daiteke. Saiatu berriro minutu batzuen buruan.</li>
+        <li>Ezin baduzu beste orririk kargatu, egiaztatu zure gailuaren datu- edo WiFi-konexioa.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_net_reset_title">Konexioa berrezarri egin da</string>
+    <string name="mozac_browser_errorpages_net_timeout_message"><![CDATA[
+      <p>Eskatutako guneak ez du eskaera erantzun eta nabigatzaileak itxaroteari utzi dio.</p>
+      <ul>
+        <li>Zerbitzariak lan karga handia duelako gerta daiteke.  Saiatu geroago.</li>
+        <li>Gauza bera gertatzen zaizu beste guneekin? Begiratu zure ordenagailuaren sareko konexioa.</li>
+        <li>Zure ordenagailu edo sarea suebaki edo proxy baten bitartez babestuta dago?  Gaizki konfiguratutako ezarpenek web nabigazioa oztopa dezakete.</li>
+        <li>Arazoak oraindik? Jarri harremanetan zure sarearen kudeatzailearekin edo Internet hornitzailearekin.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_net_timeout_title">Konexioaren denbora-muga gainditu da</string>
+    <string name="mozac_browser_errorpages_offline_message"><![CDATA[
+      <p>Nabigatzailea lineaz kanpo dago eta ezin du eskatutako elementuarekin konektatu.</p>
+      <ul>
+        <li>Ordenagailua sare aktibo batera konektatuta dago?</li>
+        <li>Sakatu "Saiatu berriro" botoia nabigatzailea linean jarri eta orria berritzeko.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_offline_title">Lineaz kanpoko modua</string>
+    <string name="mozac_browser_errorpages_page_go_back">Joan atzera</string>
+    <string name="mozac_browser_errorpages_page_refresh">Saiatu berriro</string>
+    <string name="mozac_browser_errorpages_page_title">Arazoa orria kargatzerakoan</string>
+    <string name="mozac_browser_errorpages_port_blocked_message"><![CDATA[
+      <p>Eskatutako helbideak zehaztutako ataka (adib. <q>mozilla.org:80</q> mozilla.org guneko 80. atakarentzako) web nabigazioa ez den <em>bestelako</em> helburuetarako erabili ohi da. Nabigatzaileak eskaera bertan behera utzi du zure babes eta segurtasunerako.</p>
+    ]]></string>
+    <string name="mozac_browser_errorpages_port_blocked_title">Segurtasun neurriengatik ataka galarazita dago</string>
+    <string name="mozac_browser_errorpages_proxy_connection_refused_message"><![CDATA[
+      <p>Nabigatzailea proxy-zerbitzari bat erabiltzeko konfiguratuta dago, baina proxy-zerbitzariak konexioa ukatu egin du.</p>
+      <ul>
+        <li>Proxy-zerbitzariaren ezarpenak ondo ezarrita daude? Egiaztatu ezarpenak eta saiatu berriro.</li>
+        <li>Proxy-zerbitzariak sare honetatik bideratutako konexioak baimenduta daude?</li>
+        <li>Arazoak oraindik? Jarri harremanetan zure sarearen kudeatzailearekin edo Internet hornitzailearekin.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_proxy_connection_refused_title">Proxy-zerbitzariak konexioa ukatu egin du</string>
+    <string name="mozac_browser_errorpages_redirect_loop_message"><![CDATA[
+      <p>Nabigatzaileak eskatutako elementua berreskuratzen saiatzeari utzi dio. Gunea eskaera modu okerrean birbideratzen ari da.</p>
+      <ul>
+        <li>Gune honetarako cookieak blokeatu edo ezgaitu dituzu?</li>
+        <li>Guneak bidalitako cookieak onartu eta gero arazoa konpontzen ez bada, zerbitzariaren konfigurazioaren arazoa izan daiteke eta ez zure ordenagailuarena.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_redirect_loop_title">Orriak ez du birbideraketa ondo egiten</string>
+    <string name="mozac_browser_errorpages_safe_browsing_malware_uri_message"><![CDATA[
+      <p>%1$s gunea gune erasotzaile bezala salatua dago eta blokeatu egin da zure segurtasun-ezarpenetan oinarrituta.</p>
+    ]]></string>
+    <string name="mozac_browser_errorpages_safe_browsing_malware_uri_title">Malware gunea</string>
+    <string name="mozac_browser_errorpages_safe_browsing_unwanted_uri_message"><![CDATA[
+      <p>%1$s gunea nahi ez den softwarearen zerbitzari bezala salatua dago eta blokeatu egin da zure segurtasun-ezarpenetan oinarrituta.</p>
+    ]]></string>
+    <string name="mozac_browser_errorpages_safe_browsing_unwanted_uri_title">Nahi ez den gunea</string>
+    <string name="mozac_browser_errorpages_safe_harmful_uri_message"><![CDATA[
+      <p>%1$s gunea balizko gune arriskutsu bezala salatua dago eta blokeatu egin da zure segurtasun-ezarpenetan oinarrituta.</p>
+    ]]></string>
+    <string name="mozac_browser_errorpages_safe_harmful_uri_title">Gune arriskutsua</string>
+    <string name="mozac_browser_errorpages_safe_phishing_uri_message"><![CDATA[
+      <p>%1$s gune iruzurti gisa dago salatuta eta blokeatu egin da zure segurtasun-ezarpenetan oinarrituta.</p>
+    ]]></string>
+    <string name="mozac_browser_errorpages_safe_phishing_uri_title">Gune iruzurtia</string>
+    <string name="mozac_browser_errorpages_security_bad_cert_message"><![CDATA[
+      <ul> 
+        <li>Hau zerbitzariaren konfigurazio arazo bat izan zitekeen, edo norbait zerbitzariaren nortasuna bidegabe bereganatzen saiatzen ibiltzea.</li> 
+        <li>Zerbitzari honetara arazorik gabe konektatu bazara iraganean, errorea unekoa izan daiteke eta geroago saia zaitezke.</li> 
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_security_bad_cert_title">Konexio seguruak huts egin du</string>
+    <string name="mozac_browser_errorpages_security_ssl_message"><![CDATA[      
+      <ul> 
+        <li>Ikusten saiatzen ari zaren orria ezin da erakutsi jasotako datuen egiazkotasuna ezin delako egiaztatu.</li> 
+        <li>Mesedez jarri harremanetan webgunearen jabeekin arazoaren berri emateko.</li> 
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_security_ssl_title">Konexio seguruak huts egin du</string>
+    <string name="mozac_browser_errorpages_unknown_host_message"><![CDATA[
+      <p>Nabigatzaileak ezin du ostalariko zerbitzaria aurkitu emandako helbidean.</p>
+      <ul>
+        <li>Helbidea ondo begiratu mota honetako erroreak ekiditeko: <strong>ww</strong>.adibidea.eus <strong>www</strong>.adibidea.eus-en ordez.</li>
+        <li>Ezin baduzu inolako orririk kargatu, begiratu zure gailuaren datu- edo WiFi-konexioa.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_unknown_host_title">Helbidea ez da aurkitu</string>
+    <string name="mozac_browser_errorpages_unknown_protocol_message"><![CDATA[
+      <p>Helbideak zehaztutako protokoloa (adib. <q>wxyz://</q>) ez du ezagutzen nabigatzaileak, beraz ezin da behar bezala konektatu gunera.</p>
+      <ul>
+        <li>Multimedia edo testua ez den bestelako zerbitzuren bat atzitzen saiatzen ari zara? Egiaztatu guneak aparteko beharrik duen.</li>
+        <li>Zenbait protokolok hirugarrenen softwarea edo pluginak behar dituzte nabigatzaileak ezagutu ahal ditzan.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_unknown_protocol_title">Protokolo ezezaguna</string>
+    <string name="mozac_browser_errorpages_unknown_proxy_host_message"><![CDATA[
+      <p>Nabigatzailea proxy-zerbitzari bat erabiltzeko konfiguratuta dago, baina proxy-zerbitzaria ez da aurkitu.</p>
+        <ul>
+        <li>Proxy-zerbitzariaren ezarpenak ondo ezarrita daude? Egiaztatu ezarpenak eta saiatu berriro.</li>
+        <li>Ordenagailua sare batera konektatua dago?</li>
+        <li>Arazoak oraindik? Jarri harremanetan zure sarearen kudeatzailearekin edo Internet hornitzailearekin.</li>
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_unknown_proxy_host_title">Proxy-zerbitzaria ez da aurkitu</string>
+    <string name="mozac_browser_errorpages_unknown_socket_type_message"><![CDATA[
+      <p>Guneak emandako erantzuna ustekabekoa izan da eta nabigatzaileak ezin du aurrera jarraitu.</p>
+    ]]></string>
+    <string name="mozac_browser_errorpages_unknown_socket_type_title">Ustekabeko erantzuna zerbitzaritik</string>
+    <string name="mozac_browser_errorpages_unsafe_content_type_message"><![CDATA[
+      <ul> 
+        <li>Jarri harremanetan webgunearen jabeekin arazo honen berri emateko.</li> 
+      </ul>
+    ]]></string>
+    <string name="mozac_browser_errorpages_unsafe_content_type_title">Fitxategi mota ez-segurua</string>
+    <string name="mozac_browser_toolbar_content_description_tracking_protection_off_for_a_site">Jarraipenaren babesa desgaituta dago gune honetarako</string>
+    <string name="mozac_browser_toolbar_content_description_tracking_protection_on_no_trackers_blocked">Jarraipenaren babesa gaituta dago</string>
+    <string name="mozac_browser_toolbar_content_description_tracking_protection_on_trackers_blocked">Jarraipenaren babesa gaituta jarraipen-elementuak blokeatzen</string>
+    <string name="mozac_browser_toolbar_menu_button">Menua</string>
+    <string name="mozac_browser_toolbar_progress_loading">Kargatzen</string>
+    <string name="mozac_clear_button_description">Garbitu</string>
+    <string name="mozac_feature_customtabs_exit_button">Itzuli aurreko aplikaziora</string>
+    <string name="mozac_feature_customtabs_share_link">Partekatu lotura</string>
+    <string name="mozac_lib_crash_channel">Hutsegiteak</string>
+    <string name="mozac_lib_crash_dialog_button_close">Itxi</string>
+    <string name="mozac_lib_crash_dialog_button_restart">Berrabiarazi %1$s</string>
+    <string name="mozac_lib_crash_dialog_checkbox">Bidali hutsegite-txostena %1$s(e)ra</string>
+    <string name="mozac_lib_crash_dialog_title">Barkatu. %1$s(e)k arazo bat izan du eta huts egin du.</string>
+    <string name="mozac_lib_crash_notification_action_report">Jakinarazi</string>
+    <string name="mozac_lib_send_crash_report_in_progress">Hutsegite-txostena %1$s(e)ra bidaltzen</string>
+    <string name="mozac_support_ktx_menu_share_with">Partekatu honekin…</string>
+    <string name="mozac_support_ktx_share_dialog_title">Partekatu honen bidez</string>
+    <string name="new_tab_opened_snackbar">Fitxa berria irekita</string>
+    <string name="no_suggestions_message">Zenbait bilaketa-motorrek ezin dituzte iradokizunak erakutsi.</string>
+    <string name="notification_action_erase_and_open">Ezabatu eta ireki</string>
+    <string name="notification_action_open">Ireki</string>
+    <string name="notification_browsing_session_channel_description">Jakinarazpenetatik zure %1$s saioa ezaba dezakezu sakatzearekin soilik. Horretarako ez daukazu aplikazioa ireki edo nabigatzailean dagoena ikusi beharrik.</string>
+    <string name="notification_browsing_session_channel_name">Nabigatze pribatuko saioa</string>
+    <string name="notification_erase_text">Ezabatu nabigatze-historia</string>
+    <string name="open_new_tab_snackbar">Aldatu</string>
+    <string name="preference_about">%1$s(r)i buruz</string>
+    <string name="preference_advanced_summary">Garatzaile-tresnak</string>
+    <string name="preference_autocomplete_action_add">+ Gehitu URL perstonalizatua</string>
+    <string name="preference_autocomplete_action_remove_content_description">Kendu</string>
+    <string name="preference_autocomplete_add_confirmation">URL pertsonalizatu berria gehitu da.</string>
+    <string name="preference_autocomplete_add_error">Egiaztatu idatzi duzun URLa.</string>
+    <string name="preference_autocomplete_add_example">Adibidea: adibidea.eus</string>
+    <string name="preference_autocomplete_add_example2">Adibidea: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">Itsatsi edo idatzi URLa</string>
+    <string name="preference_autocomplete_add_title">Gehitu beharreko URLa</string>
+    <string name="preference_autocomplete_custom_summary">Gehitu eta kudeatu automatikoki osatzeko URL pertsonalizatuak.</string>
+    <string name="preference_autocomplete_duplicate_url_error">URLa badago lehendik ere</string>
+    <string name="preference_autocomplete_learn_more">Argibide gehiago</string>
+    <string name="preference_autocomplete_menu_remove">Kendu</string>
+    <string name="preference_autocomplete_subitem_manage_sites">Kudeatu guneak</string>
+    <string name="preference_autocomplete_title_add">Gehitu URL perstonalizatua</string>
+    <string name="preference_autocomplete_title_remove">Kendu URL pertsonalizatuak</string>
+    <string name="preference_autocomplete_topsite_summary">Gaituz gero, helbide-barran automatikoki osatuko dira 450 URL ezagun baino gehiago.</string>
+    <string name="preference_autocomplete_user_list_summary">Gaituz gero, helbide-barran automatikoki osatuko dira 450 URL ezagun baino gehiago.</string>
+    <string name="preference_category_advanced">Aurreratua</string>
+    <string name="preference_category_autocomplete_manage_sites">Kudeatu guneak</string>
+    <string name="preference_category_cookies">Cookieak eta guneetako datuak</string>
+    <string name="preference_category_data_choices">Datu-aukerak</string>
+    <string name="preference_category_data_collection_use">Datuen bilketa eta erabilera</string>
+    <string name="preference_category_general">Orokorra</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Errendimendua</string>
+    <string name="preference_category_privacy">Pribatutasuna</string>
+    <string name="preference_category_safe_browsing">Nabigatze segurua</string>
+    <string name="preference_category_search">Bilaketa</string>
+    <string name="preference_category_security">Segurtasuna</string>
+    <string name="preference_category_switching_apps">Aplikazioak aldatzea</string>
+    <string name="preference_category_tracking_protection">Jarraipenaren babesa</string>
+    <string name="preference_category_web_content">Web edukia</string>
+    <string name="preference_default_browser2">Egin %1$s nabigatzaile lehenetsia</string>
+    <string name="preference_exceptions">Salbuespenak</string>
+    <string name="preference_exceptions_description">Edukia blokeatzea desgaitu duzu gune hauetarako.</string>
+    <string name="preference_exceptions_menu_remove">Kendu</string>
+    <string name="preference_exceptions_remove_all_button_label">Kendu webgune guztiak</string>
+    <string name="preference_general_summary">Nabigatzaile lehenetsia, fitxak, hizkuntza</string>
+    <string name="preference_homescreen_tips">Erakutsi gomendioak hasierako pantailan</string>
+    <string name="preference_language">Hizkuntza</string>
+    <string name="preference_language_systemdefault">Sistemaren lehenetsia</string>
+    <string name="preference_mozilla_summary">%1$s(r)i buruz, laguntza</string>
+    <string name="preference_mozilla_telemetry2">Bidali erabilera-datuak</string>
+    <string name="preference_mozilla_telemetry_summary">Argibide gehiago</string>
+    <string name="preference_mozilla_telemetry_summary2">%1$s denontzat eskaini eta hobetzeko beharrezkoa dena soilik biltzen ahalegintzen da Mozilla.</string>
+    <string name="preference_open_new_tab">Aldatu berehala loturara fitxa berrian</string>
+    <string name="preference_performance_block_javascript">Blokeatu JavaScript</string>
+    <string name="preference_performance_block_javascript_summary">Orriak azkarrago karga litezke baina espero gabeko portaera ere izan lezakete</string>
+    <string name="preference_performance_block_webfonts">Blokeatu webeko letra-tipoak</string>
+    <string name="preference_performance_block_webfonts_summary">Ikonoak edo irudiak ez bistaratzea eragin lezake</string>
+    <string name="preference_performance_request_desktop_site">Mahaigaineko gunea</string>
+    <string name="preference_privacy_and_security_header">Pribatutasuna eta segurtasuna</string>
+    <string name="preference_privacy_and_security_summary">Jarraipena, cookieak, datu-aukerak</string>
+    <string name="preference_privacy_block_ads">Blokeatu publizitatearen jarraipena</string>
+    <string name="preference_privacy_block_ads_summary">Zenbait iragarkik guneen bisiten jarraipena egiten dute, iragarkietan klik egiteko beharrik gabe ere</string>
+    <string name="preference_privacy_block_analytics">Blokeatu analitiken jarraipena</string>
+    <string name="preference_privacy_block_analytics_summary">Sakatzea edo korritzea bezalako jarduerak bildu, analizatu eta neurtzeko erabiltzen da</string>
+    <string name="preference_privacy_block_content">Blokeatu bestelako edukien jarraipena</string>
+    <string name="preference_privacy_block_content_summary2">Gaituz gero, zenbait orrik espero gabeko portaera izan lezakete</string>
+    <string name="preference_privacy_block_social">Blokeatu sare sozialetako jarraipena</string>
+    <string name="preference_privacy_block_social_summary">Guneetan txertatuta zure bisiten jarraipena egin eta partekatzeko botoien tankerako eginbideak bistaratzeko</string>
+    <string name="preference_privacy_category_cookies">Blokeatu cookieak</string>
+    <string name="preference_privacy_notice">Pribatutasun-oharra</string>
+    <string name="preference_privacy_secure_mode">Modu isil-gordea</string>
+    <string name="preference_privacy_should_block_cookies_no_option">Ez</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Blokeatu soilik hirugarrenen cookieak</string>
+    <string name="preference_privacy_should_block_cookies_third_party_tracker_cookies_option">Blokeatu soilik hirugarrenen jarraipen-cookieak</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Bai</string>
+    <string name="preference_privacy_stealth_summary">Ezkutatu web orriak aplikazioak aldatzean eta blokeatu pantaila-argazkiak ateratzea.</string>
+    <string name="preference_remote_debugging">USB/Wi-Fi bidezko urruneko arazketa</string>
+    <string name="preference_safe_browsing_summary">Blokeatu iruzurti eta erasotzaile gisa identifikatutako guneak, hala nola malwarea eta eskatu gabeko softwarea duten guneak.</string>
+    <string name="preference_safe_browsing_title">Blokeatu arriskutsuak eta iruzurtiak izan litezkeen guneak</string>
+    <string name="preference_search_add2">+ Gehitu beste bilaketa-motor bat</string>
+    <string name="preference_search_engine_default">Lehenetsia</string>
+    <string name="preference_search_engine_label">Bilaketa-motorra</string>
+    <string name="preference_search_installed_search_engines">Instalatutako bilaketa-motorrak</string>
+    <string name="preference_search_remove">Kendu</string>
+    <string name="preference_search_remove_title">Kendu bilaketa-motorrak</string>
+    <string name="preference_search_restore">Berrezarri bilaketa-motor lehenetsiak</string>
+    <string name="preference_search_summary">Ezarri lehenespenak, osatze automatikoa</string>
+    <string name="preference_security_biometric">Erabili hatz-marka aplikazioa desblokeatzeko</string>
+    <string name="preference_security_biometric_summary">Zure hatz-markak %1$s desblokea dezake URL bat dagoeneko aplikazioan irekita badago. Modu isil-gordea aktibatu egingo da.</string>
+    <string name="preference_show_search_suggestions">Eskuratu bilaketa-iradokizunak</string>
+    <string name="preference_show_search_suggestions_summary">Helbide-barran idazten duzuna bilaketa-motorrera bidaliko du %1$s(e)k</string>
+    <string name="preference_state_off">Desaktibatuta</string>
+    <string name="preference_state_on">Aktibatuta</string>
+    <string name="preference_subitem_autocomplete">URLen osatze automatikoa</string>
+    <string name="preference_switch_autocomplete_topsites">Gune erabilienetarako</string>
+    <string name="preference_switch_autocomplete_user_list">Gehitzen dituzun guneetarako</string>
+    <string name="search_add_confirmation">Bilaketa-motor berria gehitu da.</string>
+    <string name="search_add_error_duplicate_name">Instalatutako bilaketa-motor batek izen hori darabil lehendik ere.</string>
+    <string name="search_add_error_empty_name">Idatzi bilaketa-motorraren izena</string>
+    <string name="search_add_error_empty_search">Idatzi bilaketa-katea</string>
+    <string name="search_add_error_format">Egiaztatu bilaketa-katea adibidearen formatuarekin bat datorrela</string>
+    <string name="search_add_manually_example">Adibidea: adibidea.eus/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Bilaketa-motorraren izena</string>
+    <string name="search_add_manually_save">Gorde</string>
+    <string name="search_add_manually_string">Erabili beharreko bilaketa-katea</string>
+    <string name="search_hint">Bilatu %1$s</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Bilatu"</string>
+    <string name="security_popup_insecure_connection">Konexio ez-segurua</string>
+    <string name="security_popup_secure_connection">Konexio segurua</string>
+    <string name="security_popup_security_verified">Egiaztatzailea: %1$s</string>
+    <string name="share_dialog_title">Partekatu</string>
+    <string name="shortcut_erase_and_open_long_label">Ezabatu eta ireki %1$s</string>
+    <string name="shortcut_erase_and_open_short_label">Ezabatu eta ireki</string>
+    <string name="shortcut_erase_long_label">Ezabatu nabigatze-historia</string>
+    <string name="shortcut_erase_short_label">Ezabatu</string>
+    <string name="site_security_icon_content_description">Gunearen segurtasuna</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="tab_crash_report_close_tab_button_label">Itxi fitxa</string>
+    <string name="tab_crash_report_description">Nabigatzaile pribatu gisa, inoiz ez dugu ezer gordetzen eta ezin dugu fitxa hau berreskuratu.</string>
+    <string name="tab_crash_report_headline">Barkatu. Arazo bat izaten ari gara fitxa honekin.</string>
+    <string name="tab_crash_report_title">Fitxak huts egin du</string>
+    <string name="tabs_tray_action_erase">Ezabatu nabigatze-historia</string>
+    <string name="teaser">Nabigatze pribatu automatikoa.\nNabigatu. Ezabatu. Errepikatu.</string>
+    <string name="text_selection_search_action">Bilatu modu pribatuan</string>
+    <string name="tip_add_to_homescreen">Eskuratu behin sakatuta gehien bisitatzen dituzun webguneetarako sarbidea%1$s Menua > Gehitu hasierako pantailan</string>
+    <string name="tip_autocomplete_url">Osatu automatikoki gehien bisitatzen dituzun guneetako URLak\n Mantendu sakatuta helbide-barran edozein URL</string>
+    <string name="tip_disable_tips2">Desgaitu hasierako pantailako aholkuak</string>
+    <string name="tip_disable_tracking_protection">Guneak espero gabeko portaera du?\n Saiatu jarraipenaren babesa itzaltzen</string>
+    <string name="tip_explain_allowlist">Gune fidagarria?\nBaimentze-zerrendak jarraipenaren babesa desgaitzen du ezagutzen dituzun eta fidagarriak zaizkizun guneetarako.</string>
+    <string name="tip_open_in_new_tab">Ireki lotura fitxa berri batean\n Mantendu sakatuta orri bateko edozein lotura</string>
+    <string name="tip_request_desktop">Nahiago duzu mahaigaineko gune osoa ikusi?%1$s Menua > Mahaigaineko gunea</string>
+    <string name="tip_set_default_browser">Ireki lotura guztiak %1$s aplikazioarekin\n Egin %1$s nabigatzaile lehenetsia</string>
+    <string name="urlbar_hint">Bilatu edo idatzi helbidea</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"DESAKTIBATUTA"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"AKTIBATUTA"</string>
+    <string name="your_rights">Zure eskubideak</string>
+    <string name="your_rights_content1">Mozillak eta beste hainbat laguntzailek egindako software libre eta kode irekikoa da %1$s.</string>
+    <string name="your_rights_content2"><![CDATA["%1$s zure eskura dago "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%2$s">Mozilla Public License</a>" eta kode irekiko beste lizentzien baldintzapean."]]></string>
+    <string name="your_rights_content3"><![CDATA["Ez zaizu inolako eskubiderik edo lizentziarik aitortzen Mozilla Fundazioaren edo bestelakoen marka erregistratuetan, Mozilla, Firefox eta %1$s izen edo logoetan barne. Argibide gehiago "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%2$s">hemen</a>" aurki daitezke."]]></string>
+    <string name="your_rights_content4"><![CDATA["%1$s aplikazioaren iturburu-kode gehigarria erabilgarri dago kode irekikoak eta libreak diren bestelako "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%2$s">lizentzietan</a>.]]></string>
+    <string name="your_rights_content5"><![CDATA["%1$s aplikazioak Diskonnect, Inc.-ek emandako blokeo-zerrendak ere erabiltzen ditu, "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%2$s">GNU General Public License v3</a>" lizentziapeko aparteko lan independente gisa eta eskuragarri dago "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%3$s">hemen</a>.]]></string>
+</resources>

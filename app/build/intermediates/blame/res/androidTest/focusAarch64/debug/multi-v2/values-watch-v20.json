@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Leonard\\Documents\\HvA Documenten\\2019-2020\\Automated Software Validation\\Firefox Focus for Android\\focus-android\\app\\build\\intermediates\\incremental\\mergeFocusAarch64DebugAndroidTestResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Leonard\\.gradle\\caches\\transforms-2\\files-2.1\\695c9eef9897cac380861cc55973fcca\\appcompat-1.0.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
